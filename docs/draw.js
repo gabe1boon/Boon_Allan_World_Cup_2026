@@ -108,6 +108,7 @@ async function init() {
 
   // Render card shells (all face-down, random order)
   renderCardGrid();
+  preloadFlags();
 
   // Subscribe to live Firebase claims
   db.ref("claims").on("value", snapshot => {
@@ -116,6 +117,24 @@ async function init() {
     refreshCardStates();
     checkDrawComplete();
   });
+}
+
+// ── Flag preloader ────────────────────────────────────────────────────────────
+function preloadFlags() {
+  const frag = document.createDocumentFragment();
+  cardOrder.forEach(teamId => {
+    const t = teamById[teamId];
+    const code = FLAG_CODES[t.team.toLowerCase()];
+    if (!code) return;
+    const img = new Image();
+    img.src = `https://flagcdn.com/w24/${code}.png`;
+    frag.appendChild(img);
+  });
+  // Attach off-screen so the browser fetches and caches them
+  const shelf = document.createElement("div");
+  shelf.style.cssText = "position:absolute;width:0;height:0;overflow:hidden;";
+  shelf.appendChild(frag);
+  document.body.appendChild(shelf);
 }
 
 // ── Card grid ─────────────────────────────────────────────────────────────────
