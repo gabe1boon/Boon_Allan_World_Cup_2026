@@ -498,6 +498,24 @@ td.ub { color: #27AE60; font-weight: 700; }
   }
 }
 
+/* ── Player Totals leaderboard ── */
+#player-leaderboard-section {
+  margin-top: 2.5rem;
+}
+
+.player-lb-wrap {
+  overflow-x: auto;
+  background: var(--white);
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 16px rgba(22, 68, 206, 0.08);
+}
+
+.player-lb-teams {
+  text-align: left;
+  line-height: 1.6;
+}
+
 /* ── FIFA Ranking Groups ── */
 #fifa-section {
   margin-top: 2.5rem;

@@ -26,7 +26,25 @@ SCORING = {
 #     9:    None,      # Spain — not yet picked
 #
 ASSIGNMENTS = {
-    # team_id: "Name",  # Team name
+    2:    "Gabe",    # France
+    5:    "Gabe",    # Sweden
+    8:    "Gabe",    # Colombia
+    4673: "Gabe",    # New Zealand
+    13:   "DB",      # Senegal
+    1568: "DB",      # Uzbekistan
+    1569: "DB",      # Qatar
+    15:   "Stuart",  # Switzerland
+    1113: "Stuart",  # Bosnia & Herzegovina
+    5530: "Stuart",  # Curaçao
+    23:   "Messy",   # Saudi Arabia
+    32:   "Messy",   # Egypt
+    5529: "Messy",   # Canada
+    27:   "Adam",    # Portugal
+    1533: "Adam",    # Cape Verde Islands
+    2380: "Adam",    # Paraguay
+    31:   "Mark",    # Morocco
+    1532: "Mark",    # Algeria
+    2382: "Mark",    # Ecuador
 }
 
 # FIFA ranking groups for WC2026 (A = highest-ranked, D = lowest).

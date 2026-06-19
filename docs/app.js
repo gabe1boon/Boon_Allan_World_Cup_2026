@@ -205,6 +205,7 @@ async function load() {
     renderAvailable(data.available_teams || []);
     renderUpcoming(data.upcoming_fixtures || []);
     renderResults(data.recent_results || []);
+    renderPlayerLeaderboard(data.leaderboard || []);
     renderFifaGroups(data.fifa_groups || {});
     setInterval(render, 60000); // refresh countdown every minute
   } catch (e) {
@@ -336,6 +337,79 @@ function renderResults(fixtures) {
   }
 
   draw();
+}
+
+function renderPlayerLeaderboard(rows) {
+  const section = document.getElementById("player-leaderboard-section");
+  if (!rows.length) { section.hidden = true; return; }
+
+  // Aggregate per player
+  const map = {};
+  rows.forEach(r => {
+    if (!map[r.colleague]) {
+      map[r.colleague] = {
+        colleague: r.colleague, teams: [],
+        points: 0, played: 0, wins: 0, draws: 0, losses: 0,
+        goals_for: 0, clean_sheets: 0, upset_bonus: 0,
+        yellow_cards: 0, red_cards: 0,
+      };
+    }
+    const p = map[r.colleague];
+    p.teams.push(r.team);
+    p.points      += r.points;
+    p.played      += r.played;
+    p.wins        += r.wins;
+    p.draws       += r.draws;
+    p.losses      += (r.played - r.wins - r.draws);
+    p.goals_for   += r.goals_for;
+    p.clean_sheets+= r.clean_sheets;
+    p.upset_bonus += r.upset_bonus;
+    p.yellow_cards+= r.yellow_cards;
+    p.red_cards   += r.red_cards;
+  });
+
+  const sorted = Object.values(map).sort((a, b) =>
+    b.points - a.points || b.wins - a.wins || b.goals_for - a.goals_for
+  );
+
+  const PCOLS = [
+    { key: "rank",         label: "#",      cls: "rank" },
+    { key: "colleague",    label: "Player"  },
+    { key: "teams",        label: "Teams"   },
+    { key: "points",       label: "Pts",    cls: "pts"  },
+    { key: "played",       label: "P"       },
+    { key: "wins",         label: "W"       },
+    { key: "draws",        label: "D"       },
+    { key: "losses",       label: "L"       },
+    { key: "goals_for",    label: "GF"      },
+    { key: "clean_sheets", label: "CS"      },
+    { key: "upset_bonus",  label: "Upset",  cls: "ub"   },
+    { key: "yellow_cards", label: "YC",     cls: "yc"   },
+    { key: "red_cards",    label: "RC",     cls: "rc"   },
+  ];
+
+  const thead = PCOLS.map(c =>
+    `<th>${c.label}</th>`
+  ).join("");
+
+  const tbody = sorted.map((p, i) => {
+    const rank = i + 1;
+    const rankCls = rank <= 3 ? ` class="r${rank}"` : "";
+    const teamsHtml = p.teams.map(t => `${flagImg(t)}${t}`).join("<br>");
+    const cells = PCOLS.map(c => {
+      const cls = c.cls ? ` class="${c.cls}"` : "";
+      if (c.key === "rank")   return `<td${cls}>${rank}</td>`;
+      if (c.key === "teams")  return `<td class="player-lb-teams">${teamsHtml}</td>`;
+      return `<td${cls}>${p[c.key] ?? ""}</td>`;
+    }).join("");
+    return `<tr${rankCls}>${cells}</tr>`;
+  }).join("");
+
+  section.innerHTML = `
+    <h2 class="section-heading">Player Totals</h2>
+    <div class="player-lb-wrap">
+      <table><thead><tr>${thead}</tr></thead><tbody>${tbody}</tbody></table>
+    </div>`;
 }
 
 function renderFifaGroups(groups) {
