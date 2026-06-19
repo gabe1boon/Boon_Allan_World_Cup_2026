@@ -1,4 +1,4 @@
-CARDS_PER_PERSON = 2
+CARDS_PER_PERSON = 3
 FIREBASE_DB_URL = "https://boonallan-world-cup-default-rtdb.firebaseio.com"
 
 SCORING = {
