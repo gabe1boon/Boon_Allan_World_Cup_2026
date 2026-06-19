@@ -13,7 +13,7 @@ from pathlib import Path
 
 import requests
 
-from config import ASSIGNMENTS, FIFA_GROUPS, SCORING, UPSET_BONUS, CARDS_PER_PERSON
+from config import ASSIGNMENTS, FIFA_GROUPS, SCORING, UPSET_BONUS, CARDS_PER_PERSON, FIREBASE_DB_URL
 
 API_BASE = "https://v3.football.api-sports.io"
 LEAGUE_ID = 1
@@ -326,6 +326,7 @@ def build_output(stats, fixtures):
         "recent_results": results,
         "all_teams": all_teams,
         "cards_per_person": CARDS_PER_PERSON,
+        "firebase_db_url": FIREBASE_DB_URL,
     }
 
 

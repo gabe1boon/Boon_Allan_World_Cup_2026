@@ -56,7 +56,9 @@ function flagImg(teamName, size = 20) {
 }
 
 // ── State ────────────────────────────────────────────────────────────────────
-let allTeams = [];       // [{team_id, team}] from data.json
+// cardOrder[i] = team_id at card position i  (lives only in JS memory, never in DOM)
+let cardOrder = [];
+let teamById = {};       // team_id → {team_id, team}
 let claims = {};         // {team_id: {name, claimed_at}} from Firebase
 let playerName = "";
 let cardsPerPerson = 2;
@@ -77,7 +79,9 @@ async function init() {
     const res = await fetch("data.json");
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    allTeams = (data.all_teams || []).slice().sort(() => Math.random() - 0.5);
+    const allTeams = data.all_teams || [];
+    allTeams.forEach(t => { teamById[t.team_id] = t; });
+    cardOrder = allTeams.map(t => t.team_id).sort(() => Math.random() - 0.5);
     cardsPerPerson = data.cards_per_person || 2;
   } catch (e) {
     showFatalError("Could not load team data: " + e.message);
@@ -117,17 +121,14 @@ async function init() {
 // ── Card grid ─────────────────────────────────────────────────────────────────
 function renderCardGrid() {
   const grid = document.getElementById("card-grid");
-  grid.innerHTML = allTeams.map(t => `
-    <div class="card-wrap" data-team-id="${t.team_id}">
-      <div class="card" id="card-${t.team_id}">
+  // Cards carry only a position index — team identity stays in JS memory only
+  grid.innerHTML = cardOrder.map((_, i) => `
+    <div class="card-wrap" data-pos="${i}">
+      <div class="card" id="card-pos-${i}">
         <div class="card-face card-cover">
           <span class="card-soccer">⚽</span>
         </div>
-        <div class="card-face card-reveal">
-          <div class="reveal-flag">${flagImg(t.team, 24)}</div>
-          <div class="reveal-team">${t.team}</div>
-          <div class="reveal-claimer" id="claimer-${t.team_id}"></div>
-        </div>
+        <div class="card-face card-reveal" id="reveal-pos-${i}"></div>
       </div>
     </div>`).join("");
 
@@ -140,20 +141,28 @@ function renderCardGrid() {
 function refreshCardStates() {
   const canPick = playerName.length > 0 && picksRemaining() > 0;
 
-  allTeams.forEach(t => {
-    const card = document.getElementById(`card-${t.team_id}`);
+  cardOrder.forEach((teamId, i) => {
+    const card = document.getElementById(`card-pos-${i}`);
     if (!card) return;
     const wrap = card.closest(".card-wrap");
-    const claim = claims[t.team_id];
+    const claim = claims[teamId];
 
     if (claim) {
+      // Inject team content now (first time only) — nothing was in the DOM before
+      const revealEl = document.getElementById(`reveal-pos-${i}`);
+      if (revealEl && !revealEl.dataset.filled) {
+        const t = teamById[teamId];
+        revealEl.innerHTML = `
+          <div class="reveal-flag">${flagImg(t.team, 24)}</div>
+          <div class="reveal-team">${t.team}</div>
+          <div class="reveal-claimer">${claim.name}</div>`;
+        revealEl.dataset.filled = "1";
+      }
       card.classList.add("is-flipped");
       const isMe = claim.name === playerName;
       card.classList.toggle("claimed-mine", isMe);
       card.classList.toggle("claimed-other", !isMe);
       wrap.classList.remove("can-pick");
-      const el = document.getElementById(`claimer-${t.team_id}`);
-      if (el) el.textContent = claim.name;
     } else {
       wrap.classList.toggle("can-pick", canPick);
     }
@@ -193,7 +202,7 @@ function updateCounter() {
 
 // ── Card click ────────────────────────────────────────────────────────────────
 async function handleCardClick(wrap) {
-  const teamId = wrap.dataset.teamId;
+  const teamId = cardOrder[parseInt(wrap.dataset.pos)];
 
   if (claims[teamId]) return; // already claimed
 
@@ -234,8 +243,8 @@ async function handleCardClick(wrap) {
 
 // ── Draw complete check ───────────────────────────────────────────────────────
 function checkDrawComplete() {
-  if (!allTeams.length) return;
-  const allClaimed = allTeams.every(t => claims[t.team_id]);
+  if (!cardOrder.length) return;
+  const allClaimed = cardOrder.every(teamId => claims[teamId]);
   document.getElementById("draw-all-done").hidden = !allClaimed;
 }
 

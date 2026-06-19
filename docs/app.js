@@ -179,7 +179,9 @@ async function load() {
         "Last updated: " + new Date(data.updated_at).toLocaleString("en-GB", { timeZone: "Europe/London", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) + " UK time";
     }
 
-    renderDrawCta(data.available_teams || [], data.all_teams || []);
+    const allTeamsTotal = (data.all_teams || []).length || (data.available_teams || []).length + (data.leaderboard || []).length;
+    renderDrawCta(allTeamsTotal, (data.available_teams || []).length);
+    refreshDrawCtaLive(data.firebase_db_url, allTeamsTotal);
 
     if (!data.leaderboard || data.leaderboard.length === 0) {
       document.getElementById("status").textContent =
@@ -211,11 +213,9 @@ async function load() {
   }
 }
 
-function renderDrawCta(availableTeams, allTeams) {
+function renderDrawCta(total, remaining) {
   const el = document.getElementById("draw-cta");
   if (!el) return;
-  const total = allTeams.length || 48;
-  const remaining = availableTeams.length;
   if (remaining === 0 && total > 0) {
     el.innerHTML = `<div class="draw-cta-bar draw-cta-done">Draw complete — all ${total} teams have been picked</div>`;
   } else {
@@ -224,6 +224,18 @@ function renderDrawCta(availableTeams, allTeams) {
         <span>Pick your teams</span>
         <span class="draw-cta-badge">${remaining} remaining</span>
       </a>`;
+  }
+}
+
+async function refreshDrawCtaLive(firebaseUrl, total) {
+  if (!firebaseUrl) return;
+  try {
+    const res = await fetch(firebaseUrl.replace(/\/$/, "") + "/claims.json?shallow=true");
+    const data = await res.json();
+    const claimed = data ? Object.keys(data).length : 0;
+    renderDrawCta(total, Math.max(0, total - claimed));
+  } catch {
+    // silently fail — stale count from data.json remains shown
   }
 }
 
