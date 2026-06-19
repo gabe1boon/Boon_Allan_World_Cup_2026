@@ -641,6 +641,11 @@ td.ub { color: #27AE60; font-weight: 700; }
   border-radius: 999px;
   font-size: 0.8rem;
 }
+.draw-cta-inline {
+  display: inline-flex;
+  margin-top: 1rem;
+}
+
 .draw-cta-done {
   background: var(--blue-light);
   color: var(--blue-dark);
