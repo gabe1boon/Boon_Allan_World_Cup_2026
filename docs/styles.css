@@ -811,7 +811,7 @@ td.ub { color: #27AE60; font-weight: 700; }
 }
 
 .reveal-flag { line-height: 1; }
-.reveal-flag img { border-radius: 2px; display: block; }
+.reveal-flag .flag { margin-right: 0; display: block; }
 
 .reveal-team {
   font-size: clamp(0.48rem, 1.1vw, 0.72rem);
