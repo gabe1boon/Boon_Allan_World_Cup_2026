@@ -13,7 +13,14 @@ from pathlib import Path
 
 import requests
 
-from config import ASSIGNMENTS, FIFA_GROUPS, SCORING, UPSET_BONUS
+from config import (
+    ASSIGNMENTS as _CFG_ASSIGNMENTS,
+    FIFA_GROUPS,
+    SCORING,
+    UPSET_BONUS,
+    CARDS_PER_PERSON,
+    FIREBASE_DB_URL,
+)
 
 API_BASE = "https://v3.football.api-sports.io"
 LEAGUE_ID = 1
@@ -23,6 +30,25 @@ DOCS_DIR = Path("docs")
 DATA_JSON = DOCS_DIR / "data.json"
 SNAPSHOTS_DIR = Path("snapshots")
 LOCAL_TZ = zoneinfo.ZoneInfo("Europe/London")
+
+def _fetch_firebase_claims(url):
+    """Fetch team claims from Firebase Realtime Database (public REST read)."""
+    if not url:
+        return {}
+    try:
+        resp = requests.get(f"{url}/claims.json", timeout=10)
+        data = resp.json()
+        if not isinstance(data, dict):
+            return {}
+        return {
+            int(k): v["name"]
+            for k, v in data.items()
+            if v and isinstance(v, dict) and v.get("name")
+        }
+    except Exception as exc:
+        print(f"Warning: Firebase claims fetch failed: {exc}")
+        return {}
+
 
 # Map API team names to preferred display names where they differ.
 NAME_OVERRIDES = {
@@ -67,11 +93,11 @@ def _store_events(fixture_id, events):
     (CACHE_DIR / f"events_{fixture_id}.json").write_text(json.dumps(events, indent=2))
 
 
-def compute(fixtures, key):
+def compute(fixtures, key, assignments):
     # Only teams with a real colleague name count toward the leaderboard
-    assigned = {tid for tid, name in ASSIGNMENTS.items() if name}
+    assigned = {tid for tid, name in assignments.items() if name}
     if not assigned:
-        print("WARNING: No colleagues assigned yet in config.py — fill in after the draw.")
+        print("WARNING: No assignments yet — fill in config.py or complete the draw.")
 
     # Track ALL fixture teams so unassigned ones get points too (for the "still to pick" display).
     # Card events are only fetched for matches involving assigned teams to avoid extra API calls.
@@ -178,8 +204,8 @@ def compute(fixtures, key):
     return stats
 
 
-def build_output(stats, fixtures):
-    assigned = {tid for tid, name in ASSIGNMENTS.items() if name}
+def build_output(stats, fixtures, assignments):
+    assigned = {tid for tid, name in assignments.items() if name}
 
     names = {}
     for fx in fixtures:
@@ -219,7 +245,7 @@ def build_output(stats, fixtures):
         s = stats[tid]
         nm = next_matches.get(tid)
         rows.append({
-            "colleague": ASSIGNMENTS[tid],
+            "colleague": assignments[tid],
             "team": names.get(tid, f"Team {tid}"),
             "team_id": tid,
             "next_match_utc": nm["utc"] if nm else None,
@@ -313,12 +339,19 @@ def build_output(stats, fixtures):
     results.sort(key=lambda x: x["date"], reverse=True)
     results = results[:30]
 
+    all_teams = sorted(
+        [{"team_id": tid, "team": name} for tid, name in names.items()],
+        key=lambda t: t["team"],
+    )
+
     return {
         "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "leaderboard": rows,
         "available_teams": available_teams,
         "upcoming_fixtures": upcoming,
         "recent_results": results,
+        "all_teams": all_teams,
+        "cards_per_person": CARDS_PER_PERSON,
     }
 
 
@@ -362,8 +395,11 @@ def main():
     fixtures = _get("/fixtures", {"league": LEAGUE_ID, "season": SEASON}, key)
     print(f"  {len(fixtures)} fixtures returned")
 
-    stats = compute(fixtures, key)
-    output = build_output(stats, fixtures)
+    firebase_claims = _fetch_firebase_claims(FIREBASE_DB_URL)
+    assignments = {**_CFG_ASSIGNMENTS, **firebase_claims}
+
+    stats = compute(fixtures, key, assignments)
+    output = build_output(stats, fixtures, assignments)
     output["fifa_groups"] = FIFA_GROUPS
 
     DATA_JSON.write_text(json.dumps(output, indent=2))

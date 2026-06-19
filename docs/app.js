@@ -198,6 +198,7 @@ async function load() {
     });
 
     render();
+    renderDrawCta(data.available_teams || [], data.all_teams || []);
     renderAvailable(data.available_teams || []);
     renderUpcoming(data.upcoming_fixtures || []);
     renderResults(data.recent_results || []);
@@ -206,6 +207,22 @@ async function load() {
   } catch (e) {
     document.getElementById("status").textContent =
       "Could not load leaderboard: " + e.message;
+  }
+}
+
+function renderDrawCta(availableTeams, allTeams) {
+  const el = document.getElementById("draw-cta");
+  if (!el) return;
+  const total = allTeams.length || 48;
+  const remaining = availableTeams.length;
+  if (remaining === 0 && total > 0) {
+    el.innerHTML = `<div class="draw-cta-bar draw-cta-done">Draw complete — all ${total} teams have been picked</div>`;
+  } else {
+    el.innerHTML = `
+      <a href="draw.html" class="draw-cta-bar draw-cta-open">
+        <span>Pick your teams</span>
+        <span class="draw-cta-badge">${remaining} remaining</span>
+      </a>`;
   }
 }
 

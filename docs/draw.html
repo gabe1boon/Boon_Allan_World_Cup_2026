@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BoonAllan Sweepstake — Pick your teams</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="header-left">
+        <img src="boonallan.JPG" alt="BoonAllan" class="logo">
+        <div class="header-titles">
+          <h1>World Cup 2026</h1>
+          <p class="subtitle">Team Draw</p>
+        </div>
+      </div>
+      <a href="index.html" class="back-link">← Leaderboard</a>
+    </div>
+  </header>
+
+  <main class="draw-main">
+
+    <div id="draw-setup" class="draw-setup">
+      <p class="draw-intro">Enter your name, then flip cards to reveal your teams. Each pick is instant and permanent — no one else can claim the same team.</p>
+      <div class="draw-name-row">
+        <input id="player-name" type="text" placeholder="Your name…" autocomplete="off" maxlength="40">
+      </div>
+      <p class="pick-counter" id="pick-counter"></p>
+    </div>
+
+    <div id="draw-all-done" class="draw-all-done" hidden>
+      <p>All 48 teams have been picked — the draw is complete!</p>
+      <a href="index.html" class="draw-cta-bar draw-cta-open" style="display:inline-flex;margin-top:1rem">View Leaderboard</a>
+    </div>
+
+    <div id="card-grid" class="card-grid"></div>
+
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+  <script src="draw.js"></script>
+</body>
+</html>
