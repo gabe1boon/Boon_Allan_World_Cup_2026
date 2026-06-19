@@ -856,8 +856,8 @@ td.ub { color: #27AE60; font-weight: 700; }
 
 /* ── Shake animation ── */
 @keyframes shake {
-  0%, 100% { transform: translateX(0); }
-  25%       { transform: translateX(-7px); }
-  75%       { transform: translateX(7px); }
+  0%, 100% { translate: 0; }
+  25%       { translate: -7px; }
+  75%       { translate: 7px; }
 }
 .shake { animation: shake 0.35s ease-in-out; }
