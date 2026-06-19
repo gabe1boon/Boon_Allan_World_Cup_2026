@@ -22,7 +22,7 @@ CACHE_DIR = Path("cache")
 DOCS_DIR = Path("docs")
 DATA_JSON = DOCS_DIR / "data.json"
 SNAPSHOTS_DIR = Path("snapshots")
-GENEVA_TZ = zoneinfo.ZoneInfo("Europe/Zurich")
+LOCAL_TZ = zoneinfo.ZoneInfo("Europe/London")
 
 # Map API team names to preferred display names where they differ.
 NAME_OVERRIDES = {
@@ -323,10 +323,10 @@ def build_output(stats, fixtures):
 
 
 def maybe_snapshot(output):
-    now_geneva = datetime.now(GENEVA_TZ)
-    if now_geneva.hour < 9:
+    now_local = datetime.now(LOCAL_TZ)
+    if now_local.hour < 9:
         return
-    date_str = now_geneva.strftime("%Y-%m-%d")
+    date_str = now_local.strftime("%Y-%m-%d")
     SNAPSHOTS_DIR.mkdir(exist_ok=True)
     snapshot_path = SNAPSHOTS_DIR / f"{date_str}.json"
     if snapshot_path.exists():

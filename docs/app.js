@@ -176,7 +176,7 @@ async function load() {
 
     if (data.updated_at) {
       document.getElementById("updated").textContent =
-        "Last updated: " + new Date(data.updated_at).toLocaleString("en-GB", { timeZone: "Europe/Zurich", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) + " Geneva";
+        "Last updated: " + new Date(data.updated_at).toLocaleString("en-GB", { timeZone: "Europe/London", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) + " UK time";
     }
 
     if (!data.leaderboard || data.leaderboard.length === 0) {
@@ -238,7 +238,7 @@ function grpBadge(grp) {
 }
 
 function matchCardHtml(fx, showScore) {
-  const tz = "Europe/Zurich";
+  const tz = "Europe/London";
   const dt = new Date(fx.date);
   const dateStr = dt.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short", timeZone: tz });
   const timeStr = dt.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit", timeZone: tz });
