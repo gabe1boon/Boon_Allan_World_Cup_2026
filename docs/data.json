@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T12:28:46Z",
+  "updated_at": "2026-06-19T12:48:47Z",
   "leaderboard": [],
   "available_teams": [
     {
@@ -911,6 +911,201 @@
       "status": "FT"
     }
   ],
+  "all_teams": [
+    {
+      "team_id": 1532,
+      "team": "Algeria"
+    },
+    {
+      "team_id": 26,
+      "team": "Argentina"
+    },
+    {
+      "team_id": 20,
+      "team": "Australia"
+    },
+    {
+      "team_id": 775,
+      "team": "Austria"
+    },
+    {
+      "team_id": 1,
+      "team": "Belgium"
+    },
+    {
+      "team_id": 1113,
+      "team": "Bosnia & Herzegovina"
+    },
+    {
+      "team_id": 6,
+      "team": "Brazil"
+    },
+    {
+      "team_id": 5529,
+      "team": "Canada"
+    },
+    {
+      "team_id": 1533,
+      "team": "Cape Verde Islands"
+    },
+    {
+      "team_id": 8,
+      "team": "Colombia"
+    },
+    {
+      "team_id": 1508,
+      "team": "Congo DR"
+    },
+    {
+      "team_id": 3,
+      "team": "Croatia"
+    },
+    {
+      "team_id": 5530,
+      "team": "Cura\u00e7ao"
+    },
+    {
+      "team_id": 770,
+      "team": "Czechia"
+    },
+    {
+      "team_id": 2382,
+      "team": "Ecuador"
+    },
+    {
+      "team_id": 32,
+      "team": "Egypt"
+    },
+    {
+      "team_id": 10,
+      "team": "England"
+    },
+    {
+      "team_id": 2,
+      "team": "France"
+    },
+    {
+      "team_id": 25,
+      "team": "Germany"
+    },
+    {
+      "team_id": 1504,
+      "team": "Ghana"
+    },
+    {
+      "team_id": 2386,
+      "team": "Haiti"
+    },
+    {
+      "team_id": 22,
+      "team": "Iran"
+    },
+    {
+      "team_id": 1567,
+      "team": "Iraq"
+    },
+    {
+      "team_id": 1501,
+      "team": "Ivory Coast"
+    },
+    {
+      "team_id": 12,
+      "team": "Japan"
+    },
+    {
+      "team_id": 1548,
+      "team": "Jordan"
+    },
+    {
+      "team_id": 16,
+      "team": "Mexico"
+    },
+    {
+      "team_id": 31,
+      "team": "Morocco"
+    },
+    {
+      "team_id": 1118,
+      "team": "Netherlands"
+    },
+    {
+      "team_id": 4673,
+      "team": "New Zealand"
+    },
+    {
+      "team_id": 1090,
+      "team": "Norway"
+    },
+    {
+      "team_id": 11,
+      "team": "Panama"
+    },
+    {
+      "team_id": 2380,
+      "team": "Paraguay"
+    },
+    {
+      "team_id": 27,
+      "team": "Portugal"
+    },
+    {
+      "team_id": 1569,
+      "team": "Qatar"
+    },
+    {
+      "team_id": 23,
+      "team": "Saudi Arabia"
+    },
+    {
+      "team_id": 1108,
+      "team": "Scotland"
+    },
+    {
+      "team_id": 13,
+      "team": "Senegal"
+    },
+    {
+      "team_id": 1531,
+      "team": "South Africa"
+    },
+    {
+      "team_id": 17,
+      "team": "South Korea"
+    },
+    {
+      "team_id": 9,
+      "team": "Spain"
+    },
+    {
+      "team_id": 5,
+      "team": "Sweden"
+    },
+    {
+      "team_id": 15,
+      "team": "Switzerland"
+    },
+    {
+      "team_id": 28,
+      "team": "Tunisia"
+    },
+    {
+      "team_id": 777,
+      "team": "T\u00fcrkiye"
+    },
+    {
+      "team_id": 2384,
+      "team": "USA"
+    },
+    {
+      "team_id": 7,
+      "team": "Uruguay"
+    },
+    {
+      "team_id": 1568,
+      "team": "Uzbekistan"
+    }
+  ],
+  "cards_per_person": 2,
   "fifa_groups": {
     "A": [
       "Argentina",
