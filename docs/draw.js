@@ -64,10 +64,10 @@ let db = null;
 
 // ── Init ─────────────────────────────────────────────────────────────────────
 async function init() {
-  if (FIREBASE_CONFIG.apiKey === "REPLACE_ME") {
+  if (firebaseConfig.apiKey === "REPLACE_ME") {
     showFatalError(
       "Firebase is not configured yet. " +
-      "Open draw.js and replace the FIREBASE_CONFIG values with your project's config."
+      "Open draw.js and replace the firebaseConfig values with your project's config."
     );
     return;
   }
@@ -85,7 +85,7 @@ async function init() {
   }
 
   // Init Firebase
-  firebase.initializeApp(FIREBASE_CONFIG);
+  firebase.initializeApp(firebaseConfig);
   db = firebase.database();
 
   // Restore saved name

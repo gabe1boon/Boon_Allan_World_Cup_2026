@@ -179,6 +179,8 @@ async function load() {
         "Last updated: " + new Date(data.updated_at).toLocaleString("en-GB", { timeZone: "Europe/London", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) + " UK time";
     }
 
+    renderDrawCta(data.available_teams || [], data.all_teams || []);
+
     if (!data.leaderboard || data.leaderboard.length === 0) {
       document.getElementById("status").textContent =
         "No data yet — check back once the tournament starts.";
@@ -198,7 +200,6 @@ async function load() {
     });
 
     render();
-    renderDrawCta(data.available_teams || [], data.all_teams || []);
     renderAvailable(data.available_teams || []);
     renderUpcoming(data.upcoming_fixtures || []);
     renderResults(data.recent_results || []);
