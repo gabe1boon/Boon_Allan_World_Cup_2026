@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T20:50:34Z",
+  "updated_at": "2026-06-19T21:56:40Z",
   "leaderboard": [
     {
       "colleague": "Messy",
@@ -445,7 +445,7 @@
     {
       "team_id": 2384,
       "team": "USA",
-      "points": 6
+      "points": 13
     },
     {
       "team_id": 7,
@@ -756,6 +756,19 @@
     }
   ],
   "recent_results": [
+    {
+      "date": "2026-06-19T19:00:00Z",
+      "home_team": "USA",
+      "away_team": "Australia",
+      "home_score": 2,
+      "away_score": 0,
+      "home_group": "B",
+      "away_group": "C",
+      "venue": "Lumen Field",
+      "city": "Seattle",
+      "round": "Group Stage - 2",
+      "status": "FT"
+    },
     {
       "date": "2026-06-19T01:00:00Z",
       "home_team": "Mexico",
