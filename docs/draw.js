@@ -52,7 +52,7 @@ function flagImg(teamName, size = 20) {
   const code = FLAG_CODES[teamName.toLowerCase()];
   if (!code) return "";
   const h = Math.round(size * 0.75);
-  return `<img src="https://flagcdn.com/w${size}/${code}.png" width="${size}" height="${h}" alt="" loading="lazy">`;
+  return `<img src="https://flagcdn.com/w${size}/${code}.png" width="${size}" height="${h}" alt="">`;
 }
 
 // ── State ────────────────────────────────────────────────────────────────────
