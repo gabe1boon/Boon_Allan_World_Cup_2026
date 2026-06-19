@@ -1,9 +1,5 @@
 CARDS_PER_PERSON = 2
 
-# Firebase Realtime Database URL (e.g. "https://your-project-default-rtdb.firebaseio.com")
-# Leave empty to use only the manual ASSIGNMENTS dict below.
-FIREBASE_DB_URL = "https://boonallan-world-cup-default-rtdb.firebaseio.com/"
-
 SCORING = {
     "win": 3,
     "draw": 1,
