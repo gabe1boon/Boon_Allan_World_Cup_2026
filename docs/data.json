@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T17:08:32Z",
+  "updated_at": "2026-06-19T19:12:51Z",
   "leaderboard": [],
   "available_teams": [
     {
@@ -244,16 +244,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-06-19T19:00:00Z",
-      "home_team": "USA",
-      "away_team": "Australia",
-      "home_group": "B",
-      "away_group": "C",
-      "venue": "Lumen Field",
-      "city": "Seattle",
-      "round": "Group Stage - 2"
-    },
     {
       "date": "2026-06-19T22:00:00Z",
       "home_team": "Scotland",
@@ -542,6 +532,16 @@
       "away_group": "A",
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
+      "round": "Group Stage - 3"
+    },
+    {
+      "date": "2026-06-26T02:00:00Z",
+      "home_team": "T\u00fcrkiye",
+      "away_team": "USA",
+      "home_group": "C",
+      "away_group": "B",
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles",
       "round": "Group Stage - 3"
     }
   ],
