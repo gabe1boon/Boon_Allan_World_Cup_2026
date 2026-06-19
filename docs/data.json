@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T12:54:19Z",
+  "updated_at": "2026-06-19T13:18:03Z",
   "leaderboard": [],
   "available_teams": [
     {
@@ -1106,6 +1106,7 @@
     }
   ],
   "cards_per_person": 2,
+  "firebase_db_url": "https://boonallan-world-cup-default-rtdb.firebaseio.com",
   "fifa_groups": {
     "A": [
       "Argentina",
