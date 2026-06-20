@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T21:44:06Z",
+  "updated_at": "2026-06-20T22:55:13Z",
   "leaderboard": [
     {
       "colleague": "Messy",
@@ -355,7 +355,7 @@
     {
       "team_id": 25,
       "team": "Germany",
-      "points": 10
+      "points": 15
     },
     {
       "team_id": 1504,
@@ -380,7 +380,7 @@
     {
       "team_id": 1501,
       "team": "Ivory Coast",
-      "points": 4
+      "points": 5
     },
     {
       "team_id": 12,
@@ -757,6 +757,19 @@
   ],
   "recent_results": [
     {
+      "date": "2026-06-20T20:00:00Z",
+      "home_team": "Germany",
+      "away_team": "Ivory Coast",
+      "home_score": 2,
+      "away_score": 1,
+      "home_group": "A",
+      "away_group": "C",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "round": "Group Stage - 2",
+      "status": "FT"
+    },
+    {
       "date": "2026-06-20T17:00:00Z",
       "home_team": "Netherlands",
       "away_team": "Sweden",
@@ -1130,19 +1143,6 @@
       "away_group": "B",
       "venue": "Levi's Stadium",
       "city": "Santa Clara",
-      "round": "Group Stage - 1",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-13T01:00:00Z",
-      "home_team": "USA",
-      "away_team": "Paraguay",
-      "home_score": 4,
-      "away_score": 1,
-      "home_group": "B",
-      "away_group": "D",
-      "venue": "SoFi Stadium",
-      "city": "Inglewood",
       "round": "Group Stage - 1",
       "status": "FT"
     }
