@@ -66,6 +66,10 @@ ASSIGNMENTS = {
     17:   "Ben & Emily",  # South Korea
     7:    "Ben & Emily",  # Uruguay
     25:   "Ben & Emily",  # Germany
+    10:   "Lula",         # England
+    6:    "Lula",         # Brazil
+    1090: "Lula",         # Norway
+    28:   "Lula",         # Tunisia
 }
 
 # FIFA ranking groups for WC2026 (A = highest-ranked, D = lowest).
