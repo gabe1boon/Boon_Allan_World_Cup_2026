@@ -77,9 +77,20 @@ call them out with a **"welcome to the party"** shout-out somewhere in the messa
    - Know the leaderboard positions at the time of the last message, so you can
      call out who has moved up/down since.
 
-6. **After approval:** When Gabe approves a draft, save it to
+6. **Drafts:** Every draft is saved to `messages/drafts/YYYY-MM-DD_draft.md`
+   before being shown to Gabe. If he asks for changes, overwrite the same draft file.
+
+7. **After approval:** When Gabe approves a draft, copy it to
    `messages/approved/YYYY-MM-DD_message.md` with the metadata header below.
    This becomes the reference for the next message.
+
+8. **WhatsApp formatting — keep it tight:**
+   - Target ~250–300 words total. WhatsApp is not a newspaper.
+   - No long paragraphs — 2–3 sentences per person max.
+   - Use `*bold*` for section labels (WhatsApp renders this as bold).
+   - Each section label is one word/emoji on the same line as the text, not a standalone header.
+   - One punchline per person, not three. Pick the best one.
+   - The closing gag is one sentence only.
 
 ---
 

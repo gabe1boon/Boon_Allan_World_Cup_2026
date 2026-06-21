@@ -33,7 +33,7 @@ ASSIGNMENTS = {
     13:   "DB",      # Senegal
     1568: "DB",      # Uzbekistan
     1569: "DB",      # Qatar
-    20:  "DB",      # Uruguay
+    20:  "DB",      # Australia
     11:   "Jack",    # Panama
     9:    "Jack",    # Spain
     1108: "Jack",    # Scotland
@@ -58,6 +58,14 @@ ASSIGNMENTS = {
     1532: "Mark",    # Algeria
     2382: "Mark",    # Ecuador
     775:  "Mark",    # Austria
+    1:    "Jess",    # Belgium
+    3:    "Jess",    # Croatia
+    777:  "Jess",    # Türkiye
+    1567: "Jess",    # Iraq
+    1531: "Ben & Emily",  # South Africa
+    17:   "Ben & Emily",  # South Korea
+    7:    "Ben & Emily",  # Uruguay
+    25:   "Ben & Emily",  # Germany
 }
 
 # FIFA ranking groups for WC2026 (A = highest-ranked, D = lowest).
