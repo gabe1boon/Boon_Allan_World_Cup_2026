@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T18:18:25Z",
+  "updated_at": "2026-06-21T20:08:56Z",
   "leaderboard": [
     {
       "colleague": "Ben & Emily",
@@ -357,8 +357,8 @@
       "colleague": "Sol",
       "team": "Iran",
       "team_id": 22,
-      "next_match_utc": "2026-06-21T19:00:00Z",
-      "next_match_vs": "Belgium",
+      "next_match_utc": "2026-06-27T03:00:00Z",
+      "next_match_vs": "Egypt",
       "points": 2,
       "played": 1,
       "wins": 0,
@@ -469,8 +469,8 @@
       "colleague": "Jess",
       "team": "Belgium",
       "team_id": 1,
-      "next_match_utc": "2026-06-21T19:00:00Z",
-      "next_match_vs": "Iran",
+      "next_match_utc": "2026-06-27T03:00:00Z",
+      "next_match_vs": "New Zealand",
       "points": 0,
       "played": 1,
       "wins": 0,
@@ -729,16 +729,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-06-21T19:00:00Z",
-      "home_team": "Belgium",
-      "away_team": "Iran",
-      "home_group": "A",
-      "away_group": "C",
-      "venue": "SoFi Stadium",
-      "city": "Inglewood",
-      "round": "Group Stage - 2"
-    },
     {
       "date": "2026-06-21T22:00:00Z",
       "home_team": "Uruguay",
@@ -1027,6 +1017,16 @@
       "away_group": "C",
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia",
+      "round": "Group Stage - 3"
+    },
+    {
+      "date": "2026-06-27T21:00:00Z",
+      "home_team": "Panama",
+      "away_team": "England",
+      "home_group": "C",
+      "away_group": "A",
+      "venue": "MetLife Stadium",
+      "city": "New York New Jersey",
       "round": "Group Stage - 3"
     }
   ],
