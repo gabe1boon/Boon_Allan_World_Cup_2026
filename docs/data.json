@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T11:43:19Z",
+  "updated_at": "2026-06-21T12:38:25Z",
   "leaderboard": [
     {
       "colleague": "Messy",
@@ -162,6 +162,38 @@
       "upset_bonus": 1
     },
     {
+      "colleague": "Sol",
+      "team": "Ghana",
+      "team_id": 1504,
+      "next_match_utc": "2026-06-23T20:00:00Z",
+      "next_match_vs": "England",
+      "points": 5,
+      "played": 1,
+      "wins": 1,
+      "draws": 0,
+      "goals_for": 1,
+      "clean_sheets": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
+      "colleague": "DB",
+      "team": "Australia",
+      "team_id": 20,
+      "next_match_utc": "2026-06-26T02:00:00Z",
+      "next_match_vs": "Paraguay",
+      "points": 3,
+      "played": 2,
+      "wins": 1,
+      "draws": 0,
+      "goals_for": 2,
+      "clean_sheets": 1,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
       "colleague": "Gabe",
       "team": "New Zealand",
       "team_id": 4673,
@@ -201,6 +233,22 @@
       "next_match_vs": "Mexico",
       "points": 2,
       "played": 2,
+      "wins": 0,
+      "draws": 1,
+      "goals_for": 2,
+      "clean_sheets": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
+      "colleague": "Sol",
+      "team": "Iran",
+      "team_id": 22,
+      "next_match_utc": "2026-06-21T19:00:00Z",
+      "next_match_vs": "Belgium",
+      "points": 2,
+      "played": 1,
       "wins": 0,
       "draws": 1,
       "goals_for": 2,
@@ -263,6 +311,22 @@
       "team_id": 23,
       "next_match_utc": "2026-06-21T16:00:00Z",
       "next_match_vs": "Spain",
+      "points": 1,
+      "played": 1,
+      "wins": 0,
+      "draws": 1,
+      "goals_for": 1,
+      "clean_sheets": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
+      "colleague": "Sol",
+      "team": "Congo DR",
+      "team_id": 1508,
+      "next_match_utc": "2026-06-24T02:00:00Z",
+      "next_match_vs": "Colombia",
       "points": 1,
       "played": 1,
       "wins": 0,
@@ -418,6 +482,22 @@
       "upset_bonus": 0
     },
     {
+      "colleague": "Sol",
+      "team": "Haiti",
+      "team_id": 2386,
+      "next_match_utc": "2026-06-24T22:00:00Z",
+      "next_match_vs": "Morocco",
+      "points": -4,
+      "played": 2,
+      "wins": 0,
+      "draws": 0,
+      "goals_for": 0,
+      "clean_sheets": 0,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
       "colleague": "DB",
       "team": "Qatar",
       "team_id": 1569,
@@ -441,11 +521,6 @@
       "points": 8
     },
     {
-      "team_id": 20,
-      "team": "Australia",
-      "points": 7
-    },
-    {
       "team_id": 1,
       "team": "Belgium",
       "points": 0
@@ -453,12 +528,7 @@
     {
       "team_id": 6,
       "team": "Brazil",
-      "points": 8
-    },
-    {
-      "team_id": 1508,
-      "team": "Congo DR",
-      "points": 1
+      "points": 7
     },
     {
       "team_id": 3,
@@ -474,21 +544,6 @@
       "team_id": 25,
       "team": "Germany",
       "points": 15
-    },
-    {
-      "team_id": 1504,
-      "team": "Ghana",
-      "points": 5
-    },
-    {
-      "team_id": 2386,
-      "team": "Haiti",
-      "points": -1
-    },
-    {
-      "team_id": 22,
-      "team": "Iran",
-      "points": 2
     },
     {
       "team_id": 1567,
@@ -528,12 +583,12 @@
     {
       "team_id": 777,
       "team": "T\u00fcrkiye",
-      "points": -2
+      "points": -3
     },
     {
       "team_id": 2384,
       "team": "USA",
-      "points": 13
+      "points": 10
     },
     {
       "team_id": 7,
