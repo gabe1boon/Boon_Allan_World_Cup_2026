@@ -33,18 +33,26 @@ ASSIGNMENTS = {
     13:   "DB",      # Senegal
     1568: "DB",      # Uzbekistan
     1569: "DB",      # Qatar
+    11:   "Jack",    # Panama
+    9:    "Jack",    # Spain
+    1108: "Jack",    # Scotland
+    770:  "Jack",    # Czechia
     15:   "Stuart",  # Switzerland
     1113: "Stuart",  # Bosnia & Herzegovina
     5530: "Stuart",  # Curaçao
+    1501: "Stuart",  # Ivory Coast
     23:   "Messy",   # Saudi Arabia
     32:   "Messy",   # Egypt
     5529: "Messy",   # Canada
+    16:   "Messy",   # Mexico
     27:   "Adam",    # Portugal
     1533: "Adam",    # Cape Verde Islands
     2380: "Adam",    # Paraguay
+    1118: "Adam",    # Netherlands
     31:   "Mark",    # Morocco
     1532: "Mark",    # Algeria
     2382: "Mark",    # Ecuador
+    775:  "Mark",    # Austria
 }
 
 # FIFA ranking groups for WC2026 (A = highest-ranked, D = lowest).
