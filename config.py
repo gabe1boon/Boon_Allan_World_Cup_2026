@@ -33,10 +33,15 @@ ASSIGNMENTS = {
     13:   "DB",      # Senegal
     1568: "DB",      # Uzbekistan
     1569: "DB",      # Qatar
+    20:  "DB",      # Uruguay
     11:   "Jack",    # Panama
     9:    "Jack",    # Spain
     1108: "Jack",    # Scotland
     770:  "Jack",    # Czechia
+    22:   "Sol",     # Iran
+    1504: "Sol",     # Ghana
+    1508: "Sol",     # Congo DR
+    2386: "Sol",     # Haiti
     15:   "Stuart",  # Switzerland
     1113: "Stuart",  # Bosnia & Herzegovina
     5530: "Stuart",  # Curaçao
