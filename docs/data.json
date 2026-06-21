@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T02:59:52Z",
+  "updated_at": "2026-06-21T08:01:03Z",
   "leaderboard": [
     {
       "colleague": "Messy",
@@ -385,7 +385,7 @@
     {
       "team_id": 12,
       "team": "Japan",
-      "points": 3
+      "points": 12
     },
     {
       "team_id": 1548,
@@ -454,16 +454,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-06-21T04:00:00Z",
-      "home_team": "Tunisia",
-      "away_team": "Japan",
-      "home_group": "C",
-      "away_group": "B",
-      "venue": "Estadio BBVA",
-      "city": "Monterrey",
-      "round": "Group Stage - 2"
-    },
     {
       "date": "2026-06-21T16:00:00Z",
       "home_team": "Spain",
@@ -753,9 +743,32 @@
       "venue": "Lumen Field",
       "city": "Seattle",
       "round": "Group Stage - 3"
+    },
+    {
+      "date": "2026-06-27T03:00:00Z",
+      "home_team": "New Zealand",
+      "away_team": "Belgium",
+      "home_group": "D",
+      "away_group": "A",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "round": "Group Stage - 3"
     }
   ],
   "recent_results": [
+    {
+      "date": "2026-06-21T04:00:00Z",
+      "home_team": "Tunisia",
+      "away_team": "Japan",
+      "home_score": 0,
+      "away_score": 4,
+      "home_group": "C",
+      "away_group": "B",
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
+      "round": "Group Stage - 2",
+      "status": "FT"
+    },
     {
       "date": "2026-06-21T00:00:00Z",
       "home_team": "Ecuador",
@@ -1130,19 +1143,6 @@
       "away_group": "C",
       "venue": "Gillette Stadium",
       "city": "Boston",
-      "round": "Group Stage - 1",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-13T22:00:00Z",
-      "home_team": "Brazil",
-      "away_team": "Morocco",
-      "home_score": 1,
-      "away_score": 1,
-      "home_group": "A",
-      "away_group": "A",
-      "venue": "MetLife Stadium",
-      "city": "East Rutherford",
       "round": "Group Stage - 1",
       "status": "FT"
     }
