@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T20:59:48Z",
+  "updated_at": "2026-06-23T22:13:16Z",
   "leaderboard": [
     {
       "colleague": "Ben & Emily",
@@ -98,6 +98,22 @@
       "upset_bonus": 0
     },
     {
+      "colleague": "Lula",
+      "team": "England",
+      "team_id": 10,
+      "next_match_utc": "2026-06-27T21:00:00Z",
+      "next_match_vs": "Panama",
+      "points": 9,
+      "played": 2,
+      "wins": 1,
+      "draws": 1,
+      "goals_for": 4,
+      "clean_sheets": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
       "colleague": "Adam",
       "team": "Netherlands",
       "team_id": 1118,
@@ -162,22 +178,6 @@
       "upset_bonus": 0
     },
     {
-      "colleague": "Lula",
-      "team": "England",
-      "team_id": 10,
-      "next_match_utc": "2026-06-27T21:00:00Z",
-      "next_match_vs": "Panama",
-      "points": 7,
-      "played": 1,
-      "wins": 1,
-      "draws": 0,
-      "goals_for": 4,
-      "clean_sheets": 0,
-      "yellow_cards": 0,
-      "red_cards": 0,
-      "upset_bonus": 0
-    },
-    {
       "colleague": "Mark",
       "team": "Morocco",
       "team_id": 31,
@@ -190,6 +190,22 @@
       "goals_for": 2,
       "clean_sheets": 1,
       "yellow_cards": 1,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
+      "colleague": "Sol",
+      "team": "Ghana",
+      "team_id": 1504,
+      "next_match_utc": "2026-06-27T21:00:00Z",
+      "next_match_vs": "Croatia",
+      "points": 7,
+      "played": 2,
+      "wins": 1,
+      "draws": 1,
+      "goals_for": 1,
+      "clean_sheets": 2,
+      "yellow_cards": 2,
       "red_cards": 0,
       "upset_bonus": 0
     },
@@ -256,22 +272,6 @@
       "yellow_cards": 3,
       "red_cards": 0,
       "upset_bonus": 1
-    },
-    {
-      "colleague": "Sol",
-      "team": "Ghana",
-      "team_id": 1504,
-      "next_match_utc": "2026-06-27T21:00:00Z",
-      "next_match_vs": "Croatia",
-      "points": 5,
-      "played": 1,
-      "wins": 1,
-      "draws": 0,
-      "goals_for": 1,
-      "clean_sheets": 1,
-      "yellow_cards": 1,
-      "red_cards": 0,
-      "upset_bonus": 0
     },
     {
       "colleague": "Mark",
@@ -992,6 +992,19 @@
   ],
   "recent_results": [
     {
+      "date": "2026-06-23T20:00:00Z",
+      "home_team": "England",
+      "away_team": "Ghana",
+      "home_score": 0,
+      "away_score": 0,
+      "home_group": "A",
+      "away_group": "C",
+      "venue": "Gillette Stadium",
+      "city": "Boston",
+      "round": "Group Stage - 2",
+      "status": "FT"
+    },
+    {
       "date": "2026-06-23T17:00:00Z",
       "home_team": "Portugal",
       "away_team": "Uzbekistan",
@@ -1365,19 +1378,6 @@
       "away_group": "B",
       "venue": "MetLife Stadium",
       "city": "East Rutherford",
-      "round": "Group Stage - 1",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-16T01:00:00Z",
-      "home_team": "Iran",
-      "away_team": "New Zealand",
-      "home_score": 2,
-      "away_score": 2,
-      "home_group": "C",
-      "away_group": "D",
-      "venue": "SoFi Stadium",
-      "city": "Inglewood",
       "round": "Group Stage - 1",
       "status": "FT"
     }
