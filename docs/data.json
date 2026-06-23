@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T01:27:08Z",
+  "updated_at": "2026-06-23T05:35:58Z",
   "leaderboard": [
     {
       "colleague": "Ben & Emily",
@@ -29,6 +29,22 @@
       "draws": 0,
       "goals_for": 6,
       "clean_sheets": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
+      "colleague": "Lula",
+      "team": "Norway",
+      "team_id": 1090,
+      "next_match_utc": "2026-06-26T19:00:00Z",
+      "next_match_vs": "France",
+      "points": 13,
+      "played": 2,
+      "wins": 2,
+      "draws": 0,
+      "goals_for": 7,
+      "clean_sheets": 0,
       "yellow_cards": 0,
       "red_cards": 0,
       "upset_bonus": 0
@@ -146,22 +162,6 @@
       "upset_bonus": 0
     },
     {
-      "colleague": "Lula",
-      "team": "Norway",
-      "team_id": 1090,
-      "next_match_utc": "2026-06-26T19:00:00Z",
-      "next_match_vs": "France",
-      "points": 7,
-      "played": 1,
-      "wins": 1,
-      "draws": 0,
-      "goals_for": 4,
-      "clean_sheets": 0,
-      "yellow_cards": 0,
-      "red_cards": 0,
-      "upset_bonus": 0
-    },
-    {
       "colleague": "Mark",
       "team": "Morocco",
       "team_id": 31,
@@ -258,6 +258,22 @@
       "upset_bonus": 0
     },
     {
+      "colleague": "Mark",
+      "team": "Algeria",
+      "team_id": 1532,
+      "next_match_utc": "2026-06-28T02:00:00Z",
+      "next_match_vs": "Austria",
+      "points": 4,
+      "played": 2,
+      "wins": 1,
+      "draws": 0,
+      "goals_for": 2,
+      "clean_sheets": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
       "colleague": "Sol",
       "team": "Iran",
       "team_id": 22,
@@ -338,6 +354,22 @@
       "upset_bonus": 0
     },
     {
+      "colleague": "DB",
+      "team": "Senegal",
+      "team_id": 13,
+      "next_match_utc": "2026-06-26T19:00:00Z",
+      "next_match_vs": "Iraq",
+      "points": 3,
+      "played": 2,
+      "wins": 0,
+      "draws": 0,
+      "goals_for": 3,
+      "clean_sheets": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
       "colleague": "Ben & Emily",
       "team": "South Korea",
       "team_id": 17,
@@ -412,22 +444,6 @@
       "wins": 0,
       "draws": 0,
       "goals_for": 2,
-      "clean_sheets": 0,
-      "yellow_cards": 0,
-      "red_cards": 0,
-      "upset_bonus": 0
-    },
-    {
-      "colleague": "DB",
-      "team": "Senegal",
-      "team_id": 13,
-      "next_match_utc": "2026-06-26T19:00:00Z",
-      "next_match_vs": "Iraq",
-      "points": 1,
-      "played": 1,
-      "wins": 0,
-      "draws": 0,
-      "goals_for": 1,
       "clean_sheets": 0,
       "yellow_cards": 0,
       "red_cards": 0,
@@ -526,22 +542,6 @@
       "goals_for": 1,
       "clean_sheets": 0,
       "yellow_cards": 1,
-      "red_cards": 0,
-      "upset_bonus": 0
-    },
-    {
-      "colleague": "Mark",
-      "team": "Algeria",
-      "team_id": 1532,
-      "next_match_utc": "2026-06-23T03:00:00Z",
-      "next_match_vs": "Jordan",
-      "points": 0,
-      "played": 1,
-      "wins": 0,
-      "draws": 0,
-      "goals_for": 0,
-      "clean_sheets": 0,
-      "yellow_cards": 0,
       "red_cards": 0,
       "upset_bonus": 0
     },
@@ -729,16 +729,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-06-23T03:00:00Z",
-      "home_team": "Jordan",
-      "away_team": "Algeria",
-      "home_group": "D",
-      "away_group": "D",
-      "venue": "Levi's Stadium",
-      "city": "San Francisco Bay Area",
-      "round": "Group Stage - 2"
-    },
     {
       "date": "2026-06-23T17:00:00Z",
       "home_team": "Portugal",
@@ -1021,6 +1011,32 @@
     }
   ],
   "recent_results": [
+    {
+      "date": "2026-06-23T03:00:00Z",
+      "home_team": "Jordan",
+      "away_team": "Algeria",
+      "home_score": 1,
+      "away_score": 2,
+      "home_group": "D",
+      "away_group": "D",
+      "venue": "Levi's Stadium",
+      "city": "Santa Clara",
+      "round": "Group Stage - 2",
+      "status": "FT"
+    },
+    {
+      "date": "2026-06-23T00:00:00Z",
+      "home_team": "Norway",
+      "away_team": "Senegal",
+      "home_score": 3,
+      "away_score": 2,
+      "home_group": "B",
+      "away_group": "B",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford",
+      "round": "Group Stage - 2",
+      "status": "FT"
+    },
     {
       "date": "2026-06-22T21:00:00Z",
       "home_team": "France",
@@ -1382,32 +1398,6 @@
       "away_group": "B",
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens",
-      "round": "Group Stage - 1",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-15T19:00:00Z",
-      "home_team": "Belgium",
-      "away_team": "Egypt",
-      "home_score": 1,
-      "away_score": 1,
-      "home_group": "A",
-      "away_group": "C",
-      "venue": "Lumen Field",
-      "city": "Seattle",
-      "round": "Group Stage - 1",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-15T16:00:00Z",
-      "home_team": "Spain",
-      "away_team": "Cape Verde Islands",
-      "home_score": 0,
-      "away_score": 0,
-      "home_group": "A",
-      "away_group": "D",
-      "venue": "Mercedes-Benz Stadium",
-      "city": "Atlanta",
       "round": "Group Stage - 1",
       "status": "FT"
     }
