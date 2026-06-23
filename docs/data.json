@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T18:59:08Z",
+  "updated_at": "2026-06-23T20:59:48Z",
   "leaderboard": [
     {
       "colleague": "Ben & Emily",
@@ -114,6 +114,22 @@
       "upset_bonus": 0
     },
     {
+      "colleague": "Adam",
+      "team": "Portugal",
+      "team_id": 27,
+      "next_match_utc": "2026-06-27T23:30:00Z",
+      "next_match_vs": "Colombia",
+      "points": 8,
+      "played": 2,
+      "wins": 1,
+      "draws": 1,
+      "goals_for": 6,
+      "clean_sheets": 1,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
       "colleague": "Stuart",
       "team": "Switzerland",
       "team_id": 15,
@@ -149,8 +165,8 @@
       "colleague": "Lula",
       "team": "England",
       "team_id": 10,
-      "next_match_utc": "2026-06-23T20:00:00Z",
-      "next_match_vs": "Ghana",
+      "next_match_utc": "2026-06-27T21:00:00Z",
+      "next_match_vs": "Panama",
       "points": 7,
       "played": 1,
       "wins": 1,
@@ -245,8 +261,8 @@
       "colleague": "Sol",
       "team": "Ghana",
       "team_id": 1504,
-      "next_match_utc": "2026-06-23T20:00:00Z",
-      "next_match_vs": "England",
+      "next_match_utc": "2026-06-27T21:00:00Z",
+      "next_match_vs": "Croatia",
       "points": 5,
       "played": 1,
       "wins": 1,
@@ -530,22 +546,6 @@
       "upset_bonus": 0
     },
     {
-      "colleague": "DB",
-      "team": "Uzbekistan",
-      "team_id": 1568,
-      "next_match_utc": "2026-06-27T23:30:00Z",
-      "next_match_vs": "Congo DR",
-      "points": 0,
-      "played": 1,
-      "wins": 0,
-      "draws": 0,
-      "goals_for": 1,
-      "clean_sheets": 0,
-      "yellow_cards": 1,
-      "red_cards": 0,
-      "upset_bonus": 0
-    },
-    {
       "colleague": "Messy",
       "team": "Saudi Arabia",
       "team_id": 23,
@@ -578,18 +578,18 @@
       "upset_bonus": 0
     },
     {
-      "colleague": "Adam",
-      "team": "Portugal",
-      "team_id": 27,
+      "colleague": "DB",
+      "team": "Uzbekistan",
+      "team_id": 1568,
       "next_match_utc": "2026-06-27T23:30:00Z",
-      "next_match_vs": "Colombia",
+      "next_match_vs": "Congo DR",
       "points": -1,
-      "played": 1,
+      "played": 2,
       "wins": 0,
-      "draws": 1,
+      "draws": 0,
       "goals_for": 1,
       "clean_sheets": 0,
-      "yellow_cards": 3,
+      "yellow_cards": 2,
       "red_cards": 0,
       "upset_bonus": 0
     },
@@ -729,16 +729,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-06-23T20:00:00Z",
-      "home_team": "England",
-      "away_team": "Ghana",
-      "home_group": "A",
-      "away_group": "C",
-      "venue": "Gillette Stadium",
-      "city": "Boston",
-      "round": "Group Stage - 2"
-    },
     {
       "date": "2026-06-23T23:00:00Z",
       "home_team": "Panama",
@@ -1001,6 +991,19 @@
     }
   ],
   "recent_results": [
+    {
+      "date": "2026-06-23T17:00:00Z",
+      "home_team": "Portugal",
+      "away_team": "Uzbekistan",
+      "home_score": 5,
+      "away_score": 0,
+      "home_group": "A",
+      "away_group": "D",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "round": "Group Stage - 2",
+      "status": "FT"
+    },
     {
       "date": "2026-06-23T03:00:00Z",
       "home_team": "Jordan",
@@ -1375,19 +1378,6 @@
       "away_group": "D",
       "venue": "SoFi Stadium",
       "city": "Inglewood",
-      "round": "Group Stage - 1",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-15T22:00:00Z",
-      "home_team": "Saudi Arabia",
-      "away_team": "Uruguay",
-      "home_score": 1,
-      "away_score": 1,
-      "home_group": "C",
-      "away_group": "B",
-      "venue": "Hard Rock Stadium",
-      "city": "Miami Gardens",
       "round": "Group Stage - 1",
       "status": "FT"
     }
