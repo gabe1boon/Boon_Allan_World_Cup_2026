@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T16:45:09Z",
+  "updated_at": "2026-06-23T18:59:08Z",
   "leaderboard": [
     {
       "colleague": "Ben & Emily",
@@ -533,8 +533,8 @@
       "colleague": "DB",
       "team": "Uzbekistan",
       "team_id": 1568,
-      "next_match_utc": "2026-06-23T17:00:00Z",
-      "next_match_vs": "Portugal",
+      "next_match_utc": "2026-06-27T23:30:00Z",
+      "next_match_vs": "Congo DR",
       "points": 0,
       "played": 1,
       "wins": 0,
@@ -581,8 +581,8 @@
       "colleague": "Adam",
       "team": "Portugal",
       "team_id": 27,
-      "next_match_utc": "2026-06-23T17:00:00Z",
-      "next_match_vs": "Uzbekistan",
+      "next_match_utc": "2026-06-27T23:30:00Z",
+      "next_match_vs": "Colombia",
       "points": -1,
       "played": 1,
       "wins": 0,
@@ -729,16 +729,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-06-23T17:00:00Z",
-      "home_team": "Portugal",
-      "away_team": "Uzbekistan",
-      "home_group": "A",
-      "away_group": "D",
-      "venue": "NRG Stadium",
-      "city": "Houston",
-      "round": "Group Stage - 2"
-    },
     {
       "date": "2026-06-23T20:00:00Z",
       "home_team": "England",
