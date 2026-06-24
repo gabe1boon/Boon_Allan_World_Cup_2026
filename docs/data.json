@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T01:53:35Z",
+  "updated_at": "2026-06-24T05:55:38Z",
   "leaderboard": [
     {
       "colleague": "Ben & Emily",
@@ -92,6 +92,22 @@
       "wins": 1,
       "draws": 1,
       "goals_for": 7,
+      "clean_sheets": 1,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
+      "colleague": "Gabe",
+      "team": "Colombia",
+      "team_id": 8,
+      "next_match_utc": "2026-06-27T23:30:00Z",
+      "next_match_vs": "Portugal",
+      "points": 9,
+      "played": 2,
+      "wins": 2,
+      "draws": 0,
+      "goals_for": 4,
       "clean_sheets": 1,
       "yellow_cards": 3,
       "red_cards": 0,
@@ -254,22 +270,6 @@
       "goals_for": 4,
       "clean_sheets": 0,
       "yellow_cards": 3,
-      "red_cards": 0,
-      "upset_bonus": 0
-    },
-    {
-      "colleague": "Gabe",
-      "team": "Colombia",
-      "team_id": 8,
-      "next_match_utc": "2026-06-24T02:00:00Z",
-      "next_match_vs": "Congo DR",
-      "points": 5,
-      "played": 1,
-      "wins": 1,
-      "draws": 0,
-      "goals_for": 3,
-      "clean_sheets": 0,
-      "yellow_cards": 1,
       "red_cards": 0,
       "upset_bonus": 0
     },
@@ -466,22 +466,6 @@
       "upset_bonus": 0
     },
     {
-      "colleague": "Sol",
-      "team": "Congo DR",
-      "team_id": 1508,
-      "next_match_utc": "2026-06-24T02:00:00Z",
-      "next_match_vs": "Colombia",
-      "points": 1,
-      "played": 1,
-      "wins": 0,
-      "draws": 1,
-      "goals_for": 1,
-      "clean_sheets": 0,
-      "yellow_cards": 1,
-      "red_cards": 0,
-      "upset_bonus": 0
-    },
-    {
       "colleague": "Mark",
       "team": "Ecuador",
       "team_id": 2382,
@@ -542,6 +526,22 @@
       "goals_for": 1,
       "clean_sheets": 0,
       "yellow_cards": 1,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
+      "colleague": "Sol",
+      "team": "Congo DR",
+      "team_id": 1508,
+      "next_match_utc": "2026-06-27T23:30:00Z",
+      "next_match_vs": "Uzbekistan",
+      "points": 0,
+      "played": 2,
+      "wins": 0,
+      "draws": 1,
+      "goals_for": 1,
+      "clean_sheets": 0,
+      "yellow_cards": 2,
       "red_cards": 0,
       "upset_bonus": 0
     },
@@ -729,16 +729,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-06-24T02:00:00Z",
-      "home_team": "Colombia",
-      "away_team": "Congo DR",
-      "home_group": "A",
-      "away_group": "D",
-      "venue": "Estadio Akron",
-      "city": "Guadalajara",
-      "round": "Group Stage - 2"
-    },
     {
       "date": "2026-06-24T19:00:00Z",
       "home_team": "Switzerland",
@@ -981,6 +971,19 @@
     }
   ],
   "recent_results": [
+    {
+      "date": "2026-06-24T02:00:00Z",
+      "home_team": "Colombia",
+      "away_team": "Congo DR",
+      "home_score": 1,
+      "away_score": 0,
+      "home_group": "A",
+      "away_group": "D",
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "round": "Group Stage - 2",
+      "status": "FT"
+    },
     {
       "date": "2026-06-23T23:00:00Z",
       "home_team": "Panama",
@@ -1355,19 +1358,6 @@
       "away_group": "D",
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
-      "round": "Group Stage - 1",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-16T22:00:00Z",
-      "home_team": "Iraq",
-      "away_team": "Norway",
-      "home_score": 1,
-      "away_score": 4,
-      "home_group": "C",
-      "away_group": "B",
-      "venue": "Gillette Stadium",
-      "city": "Boston",
       "round": "Group Stage - 1",
       "status": "FT"
     }
