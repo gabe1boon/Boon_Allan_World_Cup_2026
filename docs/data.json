@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T21:51:21Z",
+  "updated_at": "2026-06-24T22:57:37Z",
   "leaderboard": [
     {
       "colleague": "Ben & Emily",
@@ -181,8 +181,8 @@
       "colleague": "Lula",
       "team": "Brazil",
       "team_id": 6,
-      "next_match_utc": "2026-06-24T22:00:00Z",
-      "next_match_vs": "Scotland",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 7,
       "played": 2,
       "wins": 1,
@@ -213,8 +213,8 @@
       "colleague": "Mark",
       "team": "Morocco",
       "team_id": 31,
-      "next_match_utc": "2026-06-24T22:00:00Z",
-      "next_match_vs": "Haiti",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 7,
       "played": 2,
       "wins": 1,
@@ -421,8 +421,8 @@
       "colleague": "Jack",
       "team": "Scotland",
       "team_id": 1108,
-      "next_match_utc": "2026-06-24T22:00:00Z",
-      "next_match_vs": "Brazil",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 2,
       "played": 2,
       "wins": 1,
@@ -661,8 +661,8 @@
       "colleague": "Sol",
       "team": "Haiti",
       "team_id": 2386,
-      "next_match_utc": "2026-06-24T22:00:00Z",
-      "next_match_vs": "Morocco",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": -4,
       "played": 2,
       "wins": 0,
@@ -729,26 +729,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-06-24T22:00:00Z",
-      "home_team": "Morocco",
-      "away_team": "Haiti",
-      "home_group": "A",
-      "away_group": "D",
-      "venue": "Mercedes-Benz Stadium",
-      "city": "Atlanta",
-      "round": "Group Stage - 3"
-    },
-    {
-      "date": "2026-06-24T22:00:00Z",
-      "home_team": "Scotland",
-      "away_team": "Brazil",
-      "home_group": "C",
-      "away_group": "A",
-      "venue": "Hard Rock Stadium",
-      "city": "Miami Gardens",
-      "round": "Group Stage - 3"
-    },
     {
       "date": "2026-06-25T01:00:00Z",
       "home_team": "Czechia",
