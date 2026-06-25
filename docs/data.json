@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T04:39:07Z",
+  "updated_at": "2026-06-25T08:16:12Z",
   "leaderboard": [
     {
       "colleague": "Messy",
@@ -114,6 +114,22 @@
       "upset_bonus": 0
     },
     {
+      "colleague": "Messy",
+      "team": "Canada",
+      "team_id": 5529,
+      "next_match_utc": "2026-06-28T19:00:00Z",
+      "next_match_vs": "South Africa",
+      "points": 11,
+      "played": 3,
+      "wins": 1,
+      "draws": 1,
+      "goals_for": 8,
+      "clean_sheets": 1,
+      "yellow_cards": 5,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
       "colleague": "Jack",
       "team": "Spain",
       "team_id": 9,
@@ -142,22 +158,6 @@
       "goals_for": 4,
       "clean_sheets": 1,
       "yellow_cards": 3,
-      "red_cards": 0,
-      "upset_bonus": 0
-    },
-    {
-      "colleague": "Messy",
-      "team": "Canada",
-      "team_id": 5529,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 9,
-      "played": 3,
-      "wins": 1,
-      "draws": 1,
-      "goals_for": 8,
-      "clean_sheets": 1,
-      "yellow_cards": 5,
       "red_cards": 0,
       "upset_bonus": 0
     },
@@ -290,6 +290,22 @@
       "upset_bonus": 1
     },
     {
+      "colleague": "Ben & Emily",
+      "team": "South Africa",
+      "team_id": 1531,
+      "next_match_utc": "2026-06-28T19:00:00Z",
+      "next_match_vs": "Canada",
+      "points": 4,
+      "played": 3,
+      "wins": 1,
+      "draws": 1,
+      "goals_for": 2,
+      "clean_sheets": 1,
+      "yellow_cards": 5,
+      "red_cards": 2,
+      "upset_bonus": 3
+    },
+    {
       "colleague": "Mark",
       "team": "Algeria",
       "team_id": 1532,
@@ -400,22 +416,6 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "upset_bonus": 0
-    },
-    {
-      "colleague": "Ben & Emily",
-      "team": "South Africa",
-      "team_id": 1531,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 2,
-      "played": 3,
-      "wins": 1,
-      "draws": 1,
-      "goals_for": 2,
-      "clean_sheets": 1,
-      "yellow_cards": 5,
-      "red_cards": 2,
-      "upset_bonus": 3
     },
     {
       "colleague": "Gabe",
@@ -816,7 +816,7 @@
       "home_group": "B",
       "away_group": "A",
       "venue": "Estadio Akron",
-      "city": "Guadalajara",
+      "city": "Zapopan",
       "round": "Group Stage - 3"
     },
     {
@@ -908,6 +908,16 @@
       "venue": "AT&T Stadium",
       "city": "Dallas",
       "round": "Group Stage - 3"
+    },
+    {
+      "date": "2026-06-28T19:00:00Z",
+      "home_team": "South Africa",
+      "away_team": "Canada",
+      "home_group": "D",
+      "away_group": "B",
+      "venue": "SoFi Stadium",
+      "city": "",
+      "round": "Round of 32"
     }
   ],
   "recent_results": [
@@ -919,7 +929,7 @@
       "away_score": 3,
       "home_group": "C",
       "away_group": "B",
-      "venue": "Estadio Azteca",
+      "venue": "Estadio Banorte",
       "city": "Mexico City",
       "round": "Group Stage - 3",
       "status": "FT"
@@ -998,7 +1008,7 @@
       "home_group": "A",
       "away_group": "D",
       "venue": "Estadio Akron",
-      "city": "Guadalajara",
+      "city": "Zapopan",
       "round": "Group Stage - 2",
       "status": "FT"
     },
@@ -1258,7 +1268,7 @@
       "home_group": "B",
       "away_group": "B",
       "venue": "Estadio Akron",
-      "city": "Guadalajara",
+      "city": "Zapopan",
       "round": "Group Stage - 2",
       "status": "FT"
     },
