@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T20:30:58Z",
+  "updated_at": "2026-06-25T22:13:23Z",
   "leaderboard": [
     {
       "colleague": "Messy",
@@ -24,12 +24,12 @@
       "next_match_utc": null,
       "next_match_vs": null,
       "points": 15,
-      "played": 2,
+      "played": 3,
       "wins": 2,
       "draws": 0,
-      "goals_for": 9,
+      "goals_for": 10,
       "clean_sheets": 0,
-      "yellow_cards": 0,
+      "yellow_cards": 1,
       "red_cards": 0,
       "upset_bonus": 0
     },
@@ -112,6 +112,22 @@
       "yellow_cards": 3,
       "red_cards": 0,
       "upset_bonus": 0
+    },
+    {
+      "colleague": "Stuart",
+      "team": "Ivory Coast",
+      "team_id": 1501,
+      "next_match_utc": null,
+      "next_match_vs": null,
+      "points": 11,
+      "played": 3,
+      "wins": 2,
+      "draws": 0,
+      "goals_for": 4,
+      "clean_sheets": 2,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "upset_bonus": 1
     },
     {
       "colleague": "Messy",
@@ -274,18 +290,18 @@
       "upset_bonus": 0
     },
     {
-      "colleague": "Stuart",
-      "team": "Ivory Coast",
-      "team_id": 1501,
+      "colleague": "Mark",
+      "team": "Ecuador",
+      "team_id": 2382,
       "next_match_utc": null,
       "next_match_vs": null,
-      "points": 5,
-      "played": 2,
+      "points": 4,
+      "played": 3,
       "wins": 1,
-      "draws": 0,
+      "draws": 1,
       "goals_for": 2,
       "clean_sheets": 1,
-      "yellow_cards": 3,
+      "yellow_cards": 5,
       "red_cards": 0,
       "upset_bonus": 1
     },
@@ -498,22 +514,6 @@
       "upset_bonus": 0
     },
     {
-      "colleague": "Mark",
-      "team": "Ecuador",
-      "team_id": 2382,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 1,
-      "played": 2,
-      "wins": 0,
-      "draws": 1,
-      "goals_for": 0,
-      "clean_sheets": 1,
-      "yellow_cards": 2,
-      "red_cards": 0,
-      "upset_bonus": 0
-    },
-    {
       "colleague": "Adam",
       "team": "Paraguay",
       "team_id": 2380,
@@ -594,22 +594,6 @@
       "upset_bonus": 0
     },
     {
-      "colleague": "Stuart",
-      "team": "Cura\u00e7ao",
-      "team_id": 5530,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": -1,
-      "played": 2,
-      "wins": 0,
-      "draws": 1,
-      "goals_for": 1,
-      "clean_sheets": 1,
-      "yellow_cards": 5,
-      "red_cards": 0,
-      "upset_bonus": 0
-    },
-    {
       "colleague": "DB",
       "team": "Uzbekistan",
       "team_id": 1568,
@@ -638,6 +622,22 @@
       "goals_for": 1,
       "clean_sheets": 0,
       "yellow_cards": 2,
+      "red_cards": 0,
+      "upset_bonus": 0
+    },
+    {
+      "colleague": "Stuart",
+      "team": "Cura\u00e7ao",
+      "team_id": 5530,
+      "next_match_utc": null,
+      "next_match_vs": null,
+      "points": -3,
+      "played": 3,
+      "wins": 0,
+      "draws": 1,
+      "goals_for": 1,
+      "clean_sheets": 1,
+      "yellow_cards": 7,
       "red_cards": 0,
       "upset_bonus": 0
     },
@@ -901,6 +901,32 @@
     }
   ],
   "recent_results": [
+    {
+      "date": "2026-06-25T20:00:00Z",
+      "home_team": "Ecuador",
+      "away_team": "Germany",
+      "home_score": 2,
+      "away_score": 1,
+      "home_group": "B",
+      "away_group": "A",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford",
+      "round": "Group Stage - 3",
+      "status": "FT"
+    },
+    {
+      "date": "2026-06-25T20:00:00Z",
+      "home_team": "Cura\u00e7ao",
+      "away_team": "Ivory Coast",
+      "home_score": 0,
+      "away_score": 2,
+      "home_group": "D",
+      "away_group": "C",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "round": "Group Stage - 3",
+      "status": "FT"
+    },
     {
       "date": "2026-06-25T01:00:00Z",
       "home_team": "Czechia",
@@ -1262,32 +1288,6 @@
       "away_group": "D",
       "venue": "BC Place",
       "city": "Vancouver",
-      "round": "Group Stage - 2",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-18T19:00:00Z",
-      "home_team": "Switzerland",
-      "away_team": "Bosnia & Herzegovina",
-      "home_score": 4,
-      "away_score": 1,
-      "home_group": "B",
-      "away_group": "D",
-      "venue": "SoFi Stadium",
-      "city": "Inglewood",
-      "round": "Group Stage - 2",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-18T16:00:00Z",
-      "home_team": "Czechia",
-      "away_team": "South Africa",
-      "home_score": 1,
-      "away_score": 1,
-      "home_group": "C",
-      "away_group": "D",
-      "venue": "Mercedes-Benz Stadium",
-      "city": "Atlanta",
       "round": "Group Stage - 2",
       "status": "FT"
     }
