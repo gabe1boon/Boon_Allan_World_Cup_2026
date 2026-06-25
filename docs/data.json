@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T18:29:33Z",
+  "updated_at": "2026-06-25T20:30:58Z",
   "leaderboard": [
     {
       "colleague": "Messy",
@@ -21,8 +21,8 @@
       "colleague": "Ben & Emily",
       "team": "Germany",
       "team_id": 25,
-      "next_match_utc": "2026-06-25T20:00:00Z",
-      "next_match_vs": "Ecuador",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 15,
       "played": 2,
       "wins": 2,
@@ -277,8 +277,8 @@
       "colleague": "Stuart",
       "team": "Ivory Coast",
       "team_id": 1501,
-      "next_match_utc": "2026-06-25T20:00:00Z",
-      "next_match_vs": "Cura\u00e7ao",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 5,
       "played": 2,
       "wins": 1,
@@ -501,8 +501,8 @@
       "colleague": "Mark",
       "team": "Ecuador",
       "team_id": 2382,
-      "next_match_utc": "2026-06-25T20:00:00Z",
-      "next_match_vs": "Germany",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 1,
       "played": 2,
       "wins": 0,
@@ -597,8 +597,8 @@
       "colleague": "Stuart",
       "team": "Cura\u00e7ao",
       "team_id": 5530,
-      "next_match_utc": "2026-06-25T20:00:00Z",
-      "next_match_vs": "Ivory Coast",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": -1,
       "played": 2,
       "wins": 0,
@@ -729,26 +729,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-06-25T20:00:00Z",
-      "home_team": "Ecuador",
-      "away_team": "Germany",
-      "home_group": "B",
-      "away_group": "A",
-      "venue": "MetLife Stadium",
-      "city": "New York New Jersey",
-      "round": "Group Stage - 3"
-    },
-    {
-      "date": "2026-06-25T20:00:00Z",
-      "home_team": "Cura\u00e7ao",
-      "away_team": "Ivory Coast",
-      "home_group": "D",
-      "away_group": "C",
-      "venue": "Lincoln Financial Field",
-      "city": "Philadelphia",
-      "round": "Group Stage - 3"
-    },
     {
       "date": "2026-06-25T23:00:00Z",
       "home_team": "Japan",
