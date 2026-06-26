@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T06:09:31Z",
+  "updated_at": "2026-06-26T09:55:41Z",
   "leaderboard": [
     {
       "colleague": "Messy",
@@ -900,7 +900,7 @@
       "home_group": "C",
       "away_group": "B",
       "venue": "SoFi Stadium",
-      "city": "Los Angeles",
+      "city": "Inglewood",
       "round": "Group Stage - 3",
       "status": "FT"
     },
@@ -913,7 +913,7 @@
       "home_group": "D",
       "away_group": "C",
       "venue": "Levi's Stadium",
-      "city": "San Francisco Bay Area",
+      "city": "Santa Clara",
       "round": "Group Stage - 3",
       "status": "FT"
     },
@@ -926,7 +926,7 @@
       "home_group": "B",
       "away_group": "B",
       "venue": "AT&T Stadium",
-      "city": "Dallas",
+      "city": "Arlington",
       "round": "Group Stage - 3",
       "status": "FT"
     },
