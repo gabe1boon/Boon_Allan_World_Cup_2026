@@ -1,0 +1,398 @@
+[
+  {
+    "time": {
+      "elapsed": 7,
+      "extra": null
+    },
+    "team": {
+      "id": 2,
+      "name": "France",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "player": {
+      "id": 153,
+      "name": "O. Dembele"
+    },
+    "assist": {
+      "id": 278,
+      "name": "K. Mbappe"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 10,
+      "extra": null
+    },
+    "team": {
+      "id": 1090,
+      "name": "Norway",
+      "logo": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "player": {
+      "id": 39064,
+      "name": "P. Berg"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Holding"
+  },
+  {
+    "time": {
+      "elapsed": 20,
+      "extra": null
+    },
+    "team": {
+      "id": 2,
+      "name": "France",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "player": {
+      "id": 153,
+      "name": "O. Dembele"
+    },
+    "assist": {
+      "id": 278,
+      "name": "K. Mbappe"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 21,
+      "extra": null
+    },
+    "team": {
+      "id": 1090,
+      "name": "Norway",
+      "logo": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "player": {
+      "id": 277930,
+      "name": "T. Aasgaard"
+    },
+    "assist": {
+      "id": 301528,
+      "name": "A. Schjelderup"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 32,
+      "extra": null
+    },
+    "team": {
+      "id": 2,
+      "name": "France",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "player": {
+      "id": 153,
+      "name": "O. Dembele"
+    },
+    "assist": {
+      "id": 1271,
+      "name": "A. Tchouameni"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 46,
+      "extra": null
+    },
+    "team": {
+      "id": 1090,
+      "name": "Norway",
+      "logo": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "player": {
+      "id": 39058,
+      "name": "F. Bjorkan"
+    },
+    "assist": {
+      "id": 39362,
+      "name": "M. Pedersen"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 46,
+      "extra": null
+    },
+    "team": {
+      "id": 1090,
+      "name": "Norway",
+      "logo": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "player": {
+      "id": 39143,
+      "name": "K. Thorstvedt"
+    },
+    "assist": {
+      "id": 36980,
+      "name": "M. Thorsby"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 50,
+      "extra": null
+    },
+    "team": {
+      "id": 1090,
+      "name": "Norway",
+      "logo": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "player": {
+      "id": 2032,
+      "name": "J. Larsen"
+    },
+    "assist": {
+      "id": 2032,
+      "name": "J. Larsen"
+    },
+    "type": "Goal",
+    "detail": "Missed Penalty",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 65,
+      "extra": null
+    },
+    "team": {
+      "id": 2,
+      "name": "France",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "player": {
+      "id": 19617,
+      "name": "M. Olise"
+    },
+    "assist": {
+      "id": 156477,
+      "name": "R. Cherki"
+    },
+    "type": "subst",
+    "detail": "Substitution 1",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 65,
+      "extra": null
+    },
+    "team": {
+      "id": 2,
+      "name": "France",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "player": {
+      "id": 153,
+      "name": "O. Dembele"
+    },
+    "assist": {
+      "id": 161904,
+      "name": "B. Barcola"
+    },
+    "type": "subst",
+    "detail": "Substitution 2",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 66,
+      "extra": null
+    },
+    "team": {
+      "id": 1090,
+      "name": "Norway",
+      "logo": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "player": {
+      "id": 180937,
+      "name": "H. Falchener"
+    },
+    "assist": {
+      "id": 265444,
+      "name": "S. Langas"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 74,
+      "extra": null
+    },
+    "team": {
+      "id": 2,
+      "name": "France",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "player": {
+      "id": 1271,
+      "name": "A. Tchouameni"
+    },
+    "assist": {
+      "id": null,
+      "name": null
+    },
+    "type": "Card",
+    "detail": "Yellow Card",
+    "comments": "Roughing"
+  },
+  {
+    "time": {
+      "elapsed": 76,
+      "extra": null
+    },
+    "team": {
+      "id": 2,
+      "name": "France",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "player": {
+      "id": 1149,
+      "name": "D. Upamecano"
+    },
+    "assist": {
+      "id": 1145,
+      "name": "I. Konate"
+    },
+    "type": "subst",
+    "detail": "Substitution 3",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 83,
+      "extra": null
+    },
+    "team": {
+      "id": 1090,
+      "name": "Norway",
+      "logo": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "player": {
+      "id": 301528,
+      "name": "A. Schjelderup"
+    },
+    "assist": {
+      "id": 314511,
+      "name": "A. Nusa"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 83,
+      "extra": null
+    },
+    "team": {
+      "id": 1090,
+      "name": "Norway",
+      "logo": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "player": {
+      "id": 278133,
+      "name": "O. Bobb"
+    },
+    "assist": {
+      "id": 39073,
+      "name": "J. Hauge"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 87,
+      "extra": null
+    },
+    "team": {
+      "id": 2,
+      "name": "France",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "player": {
+      "id": 1257,
+      "name": "J. Kounde"
+    },
+    "assist": {
+      "id": 161907,
+      "name": "M. Gusto"
+    },
+    "type": "subst",
+    "detail": "Substitution 4",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 87,
+      "extra": null
+    },
+    "team": {
+      "id": 2,
+      "name": "France",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "player": {
+      "id": 278,
+      "name": "K. Mbappe"
+    },
+    "assist": {
+      "id": 25927,
+      "name": "J. Mateta"
+    },
+    "type": "subst",
+    "detail": "Substitution 5",
+    "comments": null
+  },
+  {
+    "time": {
+      "elapsed": 90,
+      "extra": 4
+    },
+    "team": {
+      "id": 2,
+      "name": "France",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "player": {
+      "id": 343027,
+      "name": "D. Doue"
+    },
+    "assist": {
+      "id": 161904,
+      "name": "B. Barcola"
+    },
+    "type": "Goal",
+    "detail": "Normal Goal",
+    "comments": null
+  }
+]
