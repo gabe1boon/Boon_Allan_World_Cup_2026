@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T21:01:12Z",
+  "updated_at": "2026-06-26T22:40:03Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -152,6 +152,23 @@
       "yellow_cards": 4,
       "red_cards": 0,
       "upset_bonus": 1,
+      "eliminated": true
+    },
+    {
+      "colleague": "DB",
+      "team": "Senegal",
+      "team_id": 13,
+      "next_match_utc": null,
+      "next_match_vs": null,
+      "points": 11,
+      "played": 3,
+      "wins": 1,
+      "draws": 0,
+      "goals_for": 8,
+      "clean_sheets": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "upset_bonus": 0,
       "eliminated": true
     },
     {
@@ -478,23 +495,6 @@
       "eliminated": true
     },
     {
-      "colleague": "DB",
-      "team": "Senegal",
-      "team_id": 13,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 3,
-      "played": 2,
-      "wins": 0,
-      "draws": 0,
-      "goals_for": 3,
-      "clean_sheets": 0,
-      "yellow_cards": 0,
-      "red_cards": 0,
-      "upset_bonus": 0,
-      "eliminated": true
-    },
-    {
       "colleague": "Adam",
       "team": "Paraguay",
       "team_id": 2380,
@@ -665,23 +665,6 @@
       "eliminated": true
     },
     {
-      "colleague": "Jess",
-      "team": "Iraq",
-      "team_id": 1567,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": -1,
-      "played": 2,
-      "wins": 0,
-      "draws": 0,
-      "goals_for": 1,
-      "clean_sheets": 0,
-      "yellow_cards": 2,
-      "red_cards": 0,
-      "upset_bonus": 0,
-      "eliminated": true
-    },
-    {
       "colleague": "Stuart",
       "team": "Cura\u00e7ao",
       "team_id": 5530,
@@ -746,6 +729,23 @@
       "clean_sheets": 0,
       "yellow_cards": 7,
       "red_cards": 0,
+      "upset_bonus": 0,
+      "eliminated": true
+    },
+    {
+      "colleague": "Jess",
+      "team": "Iraq",
+      "team_id": 1567,
+      "next_match_utc": null,
+      "next_match_vs": null,
+      "points": -5,
+      "played": 3,
+      "wins": 0,
+      "draws": 0,
+      "goals_for": 1,
+      "clean_sheets": 0,
+      "yellow_cards": 4,
+      "red_cards": 1,
       "upset_bonus": 0,
       "eliminated": true
     }
@@ -915,6 +915,19 @@
     }
   ],
   "recent_results": [
+    {
+      "date": "2026-06-26T19:00:00Z",
+      "home_team": "Senegal",
+      "away_team": "Iraq",
+      "home_score": 5,
+      "away_score": 0,
+      "home_group": "B",
+      "away_group": "C",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "round": "Group Stage - 3",
+      "status": "FT"
+    },
     {
       "date": "2026-06-26T19:00:00Z",
       "home_team": "Norway",
@@ -1289,19 +1302,6 @@
       "away_group": "B",
       "venue": "NRG Stadium",
       "city": "Houston",
-      "round": "Group Stage - 2",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-20T03:00:00Z",
-      "home_team": "T\u00fcrkiye",
-      "away_team": "Paraguay",
-      "home_score": 0,
-      "away_score": 1,
-      "home_group": "C",
-      "away_group": "D",
-      "venue": "Levi's Stadium",
-      "city": "Santa Clara",
       "round": "Group Stage - 2",
       "status": "FT"
     }
