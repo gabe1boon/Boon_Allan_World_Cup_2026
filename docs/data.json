@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T05:42:43Z",
+  "updated_at": "2026-06-27T08:22:05Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -33,7 +33,7 @@
       "yellow_cards": 2,
       "red_cards": 1,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Ben & Emily",
@@ -101,7 +101,7 @@
       "yellow_cards": 2,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Lula",
@@ -169,7 +169,7 @@
       "yellow_cards": 3,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "DB",
@@ -186,7 +186,7 @@
       "yellow_cards": 2,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Messy",
@@ -220,7 +220,7 @@
       "yellow_cards": 3,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Lula",
@@ -237,7 +237,7 @@
       "yellow_cards": 1,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Gabe",
@@ -271,7 +271,7 @@
       "yellow_cards": 3,
       "red_cards": 1,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Adam",
@@ -288,7 +288,7 @@
       "yellow_cards": 4,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Adam",
@@ -322,7 +322,7 @@
       "yellow_cards": 1,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "DB",
@@ -356,7 +356,7 @@
       "yellow_cards": 2,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Messy",
@@ -390,7 +390,7 @@
       "yellow_cards": 3,
       "red_cards": 0,
       "upset_bonus": 1,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Adam",
@@ -424,7 +424,7 @@
       "yellow_cards": 5,
       "red_cards": 0,
       "upset_bonus": 1,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Ben & Emily",
@@ -458,7 +458,7 @@
       "yellow_cards": 1,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Stuart",
@@ -492,7 +492,7 @@
       "yellow_cards": 3,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Sol",
@@ -509,7 +509,7 @@
       "yellow_cards": 6,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Jack",
@@ -526,7 +526,7 @@
       "yellow_cards": 1,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Ben & Emily",
@@ -543,7 +543,7 @@
       "yellow_cards": 4,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Jack",
@@ -560,7 +560,7 @@
       "yellow_cards": 5,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Gabe",
@@ -577,7 +577,7 @@
       "yellow_cards": 4,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Lula",
@@ -594,7 +594,7 @@
       "yellow_cards": 1,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Sol",
@@ -611,7 +611,7 @@
       "yellow_cards": 2,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Messy",
@@ -628,7 +628,7 @@
       "yellow_cards": 6,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "DB",
@@ -645,7 +645,7 @@
       "yellow_cards": 2,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Ben & Emily",
@@ -662,7 +662,7 @@
       "yellow_cards": 5,
       "red_cards": 1,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Stuart",
@@ -679,7 +679,7 @@
       "yellow_cards": 7,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Jack",
@@ -696,7 +696,7 @@
       "yellow_cards": 3,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "DB",
@@ -713,7 +713,7 @@
       "yellow_cards": 4,
       "red_cards": 2,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Sol",
@@ -730,7 +730,7 @@
       "yellow_cards": 7,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Jess",
@@ -747,7 +747,7 @@
       "yellow_cards": 4,
       "red_cards": 1,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     }
   ],
   "available_teams": [
