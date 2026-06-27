@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T23:52:00Z",
+  "updated_at": "2026-06-27T01:52:42Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -192,8 +192,8 @@
       "colleague": "Jack",
       "team": "Spain",
       "team_id": 9,
-      "next_match_utc": "2026-06-27T00:00:00Z",
-      "next_match_vs": "Uruguay",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 11,
       "played": 2,
       "wins": 1,
@@ -430,8 +430,8 @@
       "colleague": "Adam",
       "team": "Cape Verde Islands",
       "team_id": 1533,
-      "next_match_utc": "2026-06-27T00:00:00Z",
-      "next_match_vs": "Saudi Arabia",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 4,
       "played": 2,
       "wins": 0,
@@ -481,8 +481,8 @@
       "colleague": "Ben & Emily",
       "team": "Uruguay",
       "team_id": 7,
-      "next_match_utc": "2026-06-27T00:00:00Z",
-      "next_match_vs": "Spain",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 3,
       "played": 2,
       "wins": 0,
@@ -634,8 +634,8 @@
       "colleague": "Messy",
       "team": "Saudi Arabia",
       "team_id": 23,
-      "next_match_utc": "2026-06-27T00:00:00Z",
-      "next_match_vs": "Cape Verde Islands",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": -1,
       "played": 2,
       "wins": 0,
@@ -773,26 +773,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-06-27T00:00:00Z",
-      "home_team": "Uruguay",
-      "away_team": "Spain",
-      "home_group": "B",
-      "away_group": "A",
-      "venue": "Estadio Akron",
-      "city": "Zapopan",
-      "round": "Group Stage - 3"
-    },
-    {
-      "date": "2026-06-27T00:00:00Z",
-      "home_team": "Cape Verde Islands",
-      "away_team": "Saudi Arabia",
-      "home_group": "D",
-      "away_group": "C",
-      "venue": "NRG Stadium",
-      "city": "Houston",
-      "round": "Group Stage - 3"
-    },
     {
       "date": "2026-06-27T03:00:00Z",
       "home_team": "Egypt",
