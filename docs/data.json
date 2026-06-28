@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T17:56:19Z",
+  "updated_at": "2026-06-28T19:02:36Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -260,8 +260,8 @@
       "colleague": "Messy",
       "team": "Canada",
       "team_id": 5529,
-      "next_match_utc": "2026-06-28T19:00:00Z",
-      "next_match_vs": "South Africa",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 11,
       "played": 3,
       "wins": 1,
@@ -481,8 +481,8 @@
       "colleague": "Ben & Emily",
       "team": "South Africa",
       "team_id": 1531,
-      "next_match_utc": "2026-06-28T19:00:00Z",
-      "next_match_vs": "Canada",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 4,
       "played": 3,
       "wins": 1,
@@ -773,16 +773,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-06-28T19:00:00Z",
-      "home_team": "South Africa",
-      "away_team": "Canada",
-      "home_group": "D",
-      "away_group": "B",
-      "venue": "SoFi Stadium",
-      "city": "",
-      "round": "Round of 32"
-    },
     {
       "date": "2026-06-29T17:00:00Z",
       "home_team": "Brazil",
