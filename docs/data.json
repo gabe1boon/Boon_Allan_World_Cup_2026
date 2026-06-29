@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T20:22:02Z",
+  "updated_at": "2026-06-29T21:48:17Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -73,8 +73,8 @@
       "colleague": "Ben & Emily",
       "team": "Germany",
       "team_id": 25,
-      "next_match_utc": "2026-06-29T20:30:00Z",
-      "next_match_vs": "Paraguay",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 17,
       "played": 3,
       "wins": 2,
@@ -464,8 +464,8 @@
       "colleague": "Adam",
       "team": "Paraguay",
       "team_id": 2380,
-      "next_match_utc": "2026-06-29T20:30:00Z",
-      "next_match_vs": "Germany",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 4,
       "played": 3,
       "wins": 1,
@@ -773,16 +773,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-06-29T20:30:00Z",
-      "home_team": "Germany",
-      "away_team": "Paraguay",
-      "home_group": "A",
-      "away_group": "D",
-      "venue": "Gillette Stadium",
-      "city": "Boston",
-      "round": "Round of 32"
-    },
     {
       "date": "2026-06-30T01:00:00Z",
       "home_team": "Netherlands",
