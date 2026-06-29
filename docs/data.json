@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T18:27:55Z",
+  "updated_at": "2026-06-29T20:22:02Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -32,6 +32,23 @@
       "clean_sheets": 3,
       "yellow_cards": 2,
       "red_cards": 1,
+      "upset_bonus": 0,
+      "eliminated": false
+    },
+    {
+      "colleague": "Lula",
+      "team": "Brazil",
+      "team_id": 6,
+      "next_match_utc": null,
+      "next_match_vs": null,
+      "points": 18,
+      "played": 4,
+      "wins": 3,
+      "draws": 1,
+      "goals_for": 9,
+      "clean_sheets": 2,
+      "yellow_cards": 7,
+      "red_cards": 0,
       "upset_bonus": 0,
       "eliminated": false
     },
@@ -150,23 +167,6 @@
       "goals_for": 8,
       "clean_sheets": 0,
       "yellow_cards": 1,
-      "red_cards": 0,
-      "upset_bonus": 0,
-      "eliminated": false
-    },
-    {
-      "colleague": "Lula",
-      "team": "Brazil",
-      "team_id": 6,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 15,
-      "played": 3,
-      "wins": 2,
-      "draws": 1,
-      "goals_for": 7,
-      "clean_sheets": 2,
-      "yellow_cards": 5,
       "red_cards": 0,
       "upset_bonus": 0,
       "eliminated": false
@@ -759,7 +759,7 @@
     {
       "team_id": 12,
       "team": "Japan",
-      "points": 15
+      "points": 13
     },
     {
       "team_id": 1548,
@@ -915,6 +915,19 @@
     }
   ],
   "recent_results": [
+    {
+      "date": "2026-06-29T17:00:00Z",
+      "home_team": "Brazil",
+      "away_team": "Japan",
+      "home_score": 2,
+      "away_score": 1,
+      "home_group": "A",
+      "away_group": "B",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "round": "Round of 32",
+      "status": "FT"
+    },
     {
       "date": "2026-06-28T19:00:00Z",
       "home_team": "South Africa",
@@ -1289,19 +1302,6 @@
       "away_group": "D",
       "venue": "NRG Stadium",
       "city": "Houston",
-      "round": "Group Stage - 2",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-23T03:00:00Z",
-      "home_team": "Jordan",
-      "away_team": "Algeria",
-      "home_score": 1,
-      "away_score": 2,
-      "home_group": "D",
-      "away_group": "D",
-      "venue": "Levi's Stadium",
-      "city": "Santa Clara",
       "round": "Group Stage - 2",
       "status": "FT"
     }
