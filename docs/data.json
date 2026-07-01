@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T13:29:28Z",
+  "updated_at": "2026-07-01T16:05:10Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -141,8 +141,8 @@
       "colleague": "Lula",
       "team": "England",
       "team_id": 10,
-      "next_match_utc": "2026-07-01T16:00:00Z",
-      "next_match_vs": "Congo DR",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 17,
       "played": 3,
       "wins": 2,
@@ -413,8 +413,8 @@
       "colleague": "Sol",
       "team": "Congo DR",
       "team_id": 1508,
-      "next_match_utc": "2026-07-01T16:00:00Z",
-      "next_match_vs": "England",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 5,
       "played": 3,
       "wins": 1,
@@ -773,16 +773,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-07-01T16:00:00Z",
-      "home_team": "England",
-      "away_team": "Congo DR",
-      "home_group": "A",
-      "away_group": "D",
-      "venue": "Mercedes-Benz Stadium",
-      "city": "Atlanta",
-      "round": "Round of 32"
-    },
     {
       "date": "2026-07-01T20:00:00Z",
       "home_team": "Belgium",
