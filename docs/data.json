@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T23:00:19Z",
+  "updated_at": "2026-07-02T01:28:46Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -481,8 +481,8 @@
       "colleague": "Stuart",
       "team": "Bosnia & Herzegovina",
       "team_id": 1113,
-      "next_match_utc": "2026-07-02T00:00:00Z",
-      "next_match_vs": "USA",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 3,
       "played": 3,
       "wins": 1,
@@ -773,16 +773,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-07-02T00:00:00Z",
-      "home_team": "USA",
-      "away_team": "Bosnia & Herzegovina",
-      "home_group": "B",
-      "away_group": "D",
-      "venue": "Levi's Stadium",
-      "city": "San-Francisco",
-      "round": "Round of 32"
-    },
     {
       "date": "2026-07-02T19:00:00Z",
       "home_team": "Spain",
