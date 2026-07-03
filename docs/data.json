@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T21:36:32Z",
+  "updated_at": "2026-07-03T22:50:47Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -362,8 +362,8 @@
       "colleague": "Adam",
       "team": "Cape Verde Islands",
       "team_id": 1533,
-      "next_match_utc": "2026-07-03T22:00:00Z",
-      "next_match_vs": "Argentina",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 8,
       "played": 3,
       "wins": 0,
@@ -773,16 +773,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-07-03T22:00:00Z",
-      "home_team": "Argentina",
-      "away_team": "Cape Verde Islands",
-      "home_group": "A",
-      "away_group": "D",
-      "venue": "Hard Rock Stadium",
-      "city": "Miami",
-      "round": "Round of 32"
-    },
     {
       "date": "2026-07-04T01:30:00Z",
       "home_team": "Colombia",
