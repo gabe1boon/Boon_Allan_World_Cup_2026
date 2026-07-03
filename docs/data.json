@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T17:08:13Z",
+  "updated_at": "2026-07-03T18:43:18Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -379,8 +379,8 @@
       "colleague": "DB",
       "team": "Australia",
       "team_id": 20,
-      "next_match_utc": "2026-07-03T18:00:00Z",
-      "next_match_vs": "Egypt",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 7,
       "played": 3,
       "wins": 1,
@@ -396,8 +396,8 @@
       "colleague": "Messy",
       "team": "Egypt",
       "team_id": 32,
-      "next_match_utc": "2026-07-03T18:00:00Z",
-      "next_match_vs": "Australia",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 6,
       "played": 3,
       "wins": 1,
@@ -773,16 +773,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-07-03T18:00:00Z",
-      "home_team": "Australia",
-      "away_team": "Egypt",
-      "home_group": "C",
-      "away_group": "C",
-      "venue": "AT&T Stadium",
-      "city": "Dallas",
-      "round": "Round of 32"
-    },
     {
       "date": "2026-07-03T22:00:00Z",
       "home_team": "Argentina",
