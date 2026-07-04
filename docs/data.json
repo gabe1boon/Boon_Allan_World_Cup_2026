@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T16:47:37Z",
+  "updated_at": "2026-07-04T17:52:41Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -158,8 +158,8 @@
       "colleague": "Mark",
       "team": "Morocco",
       "team_id": 31,
-      "next_match_utc": "2026-07-04T17:00:00Z",
-      "next_match_vs": "Canada",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 19,
       "played": 4,
       "wins": 2,
@@ -192,8 +192,8 @@
       "colleague": "Messy",
       "team": "Canada",
       "team_id": 5529,
-      "next_match_utc": "2026-07-04T17:00:00Z",
-      "next_match_vs": "Morocco",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 17,
       "played": 4,
       "wins": 2,
@@ -773,16 +773,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-07-04T17:00:00Z",
-      "home_team": "Canada",
-      "away_team": "Morocco",
-      "home_group": "B",
-      "away_group": "A",
-      "venue": "NRG Stadium",
-      "city": "Houston",
-      "round": "Round of 16"
-    },
     {
       "date": "2026-07-04T21:00:00Z",
       "home_team": "Paraguay",
