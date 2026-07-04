@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T23:53:20Z",
+  "updated_at": "2026-07-04T01:27:19Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -325,6 +325,23 @@
       "eliminated": false
     },
     {
+      "colleague": "Adam",
+      "team": "Cape Verde Islands",
+      "team_id": 1533,
+      "next_match_utc": null,
+      "next_match_vs": null,
+      "points": 9,
+      "played": 4,
+      "wins": 0,
+      "draws": 3,
+      "goals_for": 4,
+      "clean_sheets": 2,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "upset_bonus": 0,
+      "eliminated": true
+    },
+    {
       "colleague": "Gabe",
       "team": "Sweden",
       "team_id": 5,
@@ -357,23 +374,6 @@
       "red_cards": 0,
       "upset_bonus": 0,
       "eliminated": true
-    },
-    {
-      "colleague": "Adam",
-      "team": "Cape Verde Islands",
-      "team_id": 1533,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 8,
-      "played": 3,
-      "wins": 0,
-      "draws": 3,
-      "goals_for": 2,
-      "clean_sheets": 2,
-      "yellow_cards": 3,
-      "red_cards": 0,
-      "upset_bonus": 0,
-      "eliminated": false
     },
     {
       "colleague": "Mark",
@@ -754,7 +754,7 @@
     {
       "team_id": 26,
       "team": "Argentina",
-      "points": 21
+      "points": 26
     },
     {
       "team_id": 12,
@@ -845,6 +845,19 @@
     }
   ],
   "recent_results": [
+    {
+      "date": "2026-07-03T22:00:00Z",
+      "home_team": "Argentina",
+      "away_team": "Cape Verde Islands",
+      "home_score": 3,
+      "away_score": 2,
+      "home_group": "A",
+      "away_group": "D",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami",
+      "round": "Round of 32",
+      "status": "AET"
+    },
     {
       "date": "2026-07-03T18:00:00Z",
       "home_team": "Australia",
@@ -1219,19 +1232,6 @@
       "away_group": "B",
       "venue": "AT&T Stadium",
       "city": "Arlington",
-      "round": "Group Stage - 3",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-25T23:00:00Z",
-      "home_team": "Tunisia",
-      "away_team": "Netherlands",
-      "home_score": 1,
-      "away_score": 3,
-      "home_group": "C",
-      "away_group": "A",
-      "venue": "Arrowhead Stadium",
-      "city": "Kansas City",
       "round": "Group Stage - 3",
       "status": "FT"
     }
