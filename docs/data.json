@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T05:03:34Z",
+  "updated_at": "2026-07-04T08:07:55Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -70,6 +70,23 @@
       "eliminated": false
     },
     {
+      "colleague": "Stuart",
+      "team": "Switzerland",
+      "team_id": 15,
+      "next_match_utc": "2026-07-07T20:00:00Z",
+      "next_match_vs": "Colombia",
+      "points": 22,
+      "played": 4,
+      "wins": 3,
+      "draws": 1,
+      "goals_for": 9,
+      "clean_sheets": 1,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "upset_bonus": 0,
+      "eliminated": false
+    },
+    {
       "colleague": "Lula",
       "team": "Norway",
       "team_id": 1090,
@@ -104,18 +121,18 @@
       "eliminated": false
     },
     {
-      "colleague": "Stuart",
-      "team": "Switzerland",
-      "team_id": 15,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 20,
+      "colleague": "Gabe",
+      "team": "Colombia",
+      "team_id": 8,
+      "next_match_utc": "2026-07-07T20:00:00Z",
+      "next_match_vs": "Switzerland",
+      "points": 19,
       "played": 4,
       "wins": 3,
       "draws": 1,
-      "goals_for": 9,
-      "clean_sheets": 1,
-      "yellow_cards": 3,
+      "goals_for": 5,
+      "clean_sheets": 3,
+      "yellow_cards": 6,
       "red_cards": 0,
       "upset_bonus": 0,
       "eliminated": false
@@ -170,23 +187,6 @@
       "red_cards": 0,
       "upset_bonus": 0,
       "eliminated": true
-    },
-    {
-      "colleague": "Gabe",
-      "team": "Colombia",
-      "team_id": 8,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 17,
-      "played": 4,
-      "wins": 3,
-      "draws": 1,
-      "goals_for": 5,
-      "clean_sheets": 3,
-      "yellow_cards": 6,
-      "red_cards": 0,
-      "upset_bonus": 0,
-      "eliminated": false
     },
     {
       "colleague": "Messy",
@@ -342,6 +342,23 @@
       "eliminated": true
     },
     {
+      "colleague": "Messy",
+      "team": "Egypt",
+      "team_id": 32,
+      "next_match_utc": "2026-07-07T16:00:00Z",
+      "next_match_vs": "Argentina",
+      "points": 8,
+      "played": 4,
+      "wins": 1,
+      "draws": 3,
+      "goals_for": 6,
+      "clean_sheets": 0,
+      "yellow_cards": 8,
+      "red_cards": 0,
+      "upset_bonus": 0,
+      "eliminated": false
+    },
+    {
       "colleague": "Mark",
       "team": "Algeria",
       "team_id": 1532,
@@ -374,23 +391,6 @@
       "red_cards": 0,
       "upset_bonus": 0,
       "eliminated": true
-    },
-    {
-      "colleague": "Messy",
-      "team": "Egypt",
-      "team_id": 32,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 6,
-      "played": 4,
-      "wins": 1,
-      "draws": 3,
-      "goals_for": 6,
-      "clean_sheets": 0,
-      "yellow_cards": 8,
-      "red_cards": 0,
-      "upset_bonus": 0,
-      "eliminated": false
     },
     {
       "colleague": "Sol",
@@ -754,7 +754,7 @@
     {
       "team_id": 26,
       "team": "Argentina",
-      "points": 26
+      "points": 28
     },
     {
       "team_id": 12,
@@ -830,6 +830,26 @@
       "home_group": "B",
       "away_group": "A",
       "venue": "Lumen Field",
+      "city": "",
+      "round": "Round of 16"
+    },
+    {
+      "date": "2026-07-07T16:00:00Z",
+      "home_team": "Argentina",
+      "away_team": "Egypt",
+      "home_group": "A",
+      "away_group": "C",
+      "venue": "",
+      "city": "",
+      "round": "Round of 16"
+    },
+    {
+      "date": "2026-07-07T20:00:00Z",
+      "home_team": "Switzerland",
+      "away_team": "Colombia",
+      "home_group": "B",
+      "away_group": "A",
+      "venue": "",
       "city": "",
       "round": "Round of 16"
     }
