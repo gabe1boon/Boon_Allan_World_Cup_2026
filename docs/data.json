@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T21:31:01Z",
+  "updated_at": "2026-07-05T22:45:36Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -50,6 +50,23 @@
       "yellow_cards": 2,
       "red_cards": 0,
       "upset_bonus": 0,
+      "eliminated": false
+    },
+    {
+      "colleague": "Lula",
+      "team": "Norway",
+      "team_id": 1090,
+      "next_match_utc": null,
+      "next_match_vs": null,
+      "points": 27,
+      "played": 5,
+      "wins": 4,
+      "draws": 0,
+      "goals_for": 12,
+      "clean_sheets": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "upset_bonus": 1,
       "eliminated": false
     },
     {
@@ -105,37 +122,20 @@
     },
     {
       "colleague": "Lula",
-      "team": "Norway",
-      "team_id": 1090,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 21,
-      "played": 4,
-      "wins": 3,
-      "draws": 0,
-      "goals_for": 10,
-      "clean_sheets": 0,
-      "yellow_cards": 2,
-      "red_cards": 0,
-      "upset_bonus": 0,
-      "eliminated": false
-    },
-    {
-      "colleague": "Lula",
       "team": "Brazil",
       "team_id": 6,
       "next_match_utc": null,
       "next_match_vs": null,
       "points": 20,
-      "played": 4,
+      "played": 5,
       "wins": 3,
       "draws": 1,
-      "goals_for": 9,
+      "goals_for": 10,
       "clean_sheets": 2,
-      "yellow_cards": 7,
+      "yellow_cards": 8,
       "red_cards": 0,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Gabe",
@@ -779,7 +779,7 @@
       "away_team": "England",
       "home_group": "B",
       "away_group": "A",
-      "venue": "Estadio Banorte",
+      "venue": "Estadio Azteca",
       "city": "Mexico City",
       "round": "Round of 16"
     },
@@ -835,6 +835,19 @@
     }
   ],
   "recent_results": [
+    {
+      "date": "2026-07-05T20:00:00Z",
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "home_score": 1,
+      "away_score": 2,
+      "home_group": "A",
+      "away_group": "B",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford",
+      "round": "Round of 16",
+      "status": "FT"
+    },
     {
       "date": "2026-07-04T21:00:00Z",
       "home_team": "Paraguay",
@@ -1209,19 +1222,6 @@
       "away_group": "C",
       "venue": "BMO Field",
       "city": "Toronto",
-      "round": "Group Stage - 3",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-26T19:00:00Z",
-      "home_team": "Norway",
-      "away_team": "France",
-      "home_score": 1,
-      "away_score": 4,
-      "home_group": "B",
-      "away_group": "A",
-      "venue": "Gillette Stadium",
-      "city": "Boston",
       "round": "Group Stage - 3",
       "status": "FT"
     }
