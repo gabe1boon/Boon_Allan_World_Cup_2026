@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T01:47:54Z",
+  "updated_at": "2026-07-06T06:13:42Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -19,21 +19,38 @@
       "eliminated": false
     },
     {
+      "colleague": "Lula",
+      "team": "Norway",
+      "team_id": 1090,
+      "next_match_utc": "2026-07-11T21:00:00Z",
+      "next_match_vs": "England",
+      "points": 29,
+      "played": 5,
+      "wins": 4,
+      "draws": 0,
+      "goals_for": 12,
+      "clean_sheets": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "upset_bonus": 1,
+      "eliminated": false
+    },
+    {
       "colleague": "Messy",
       "team": "Mexico",
       "team_id": 16,
       "next_match_utc": null,
       "next_match_vs": null,
       "points": 28,
-      "played": 4,
+      "played": 5,
       "wins": 4,
       "draws": 0,
-      "goals_for": 8,
+      "goals_for": 10,
       "clean_sheets": 4,
-      "yellow_cards": 2,
+      "yellow_cards": 4,
       "red_cards": 1,
       "upset_bonus": 0,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Jack",
@@ -54,19 +71,19 @@
     },
     {
       "colleague": "Lula",
-      "team": "Norway",
-      "team_id": 1090,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 27,
+      "team": "England",
+      "team_id": 10,
+      "next_match_utc": "2026-07-11T21:00:00Z",
+      "next_match_vs": "Norway",
+      "points": 25,
       "played": 5,
       "wins": 4,
-      "draws": 0,
-      "goals_for": 12,
-      "clean_sheets": 0,
-      "yellow_cards": 2,
-      "red_cards": 0,
-      "upset_bonus": 1,
+      "draws": 1,
+      "goals_for": 11,
+      "clean_sheets": 2,
+      "yellow_cards": 7,
+      "red_cards": 1,
+      "upset_bonus": 0,
       "eliminated": false
     },
     {
@@ -82,23 +99,6 @@
       "goals_for": 10,
       "clean_sheets": 2,
       "yellow_cards": 6,
-      "red_cards": 0,
-      "upset_bonus": 0,
-      "eliminated": false
-    },
-    {
-      "colleague": "Lula",
-      "team": "England",
-      "team_id": 10,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 23,
-      "played": 4,
-      "wins": 3,
-      "draws": 1,
-      "goals_for": 8,
-      "clean_sheets": 2,
-      "yellow_cards": 3,
       "red_cards": 0,
       "upset_bonus": 0,
       "eliminated": false
@@ -822,9 +822,32 @@
       "venue": "",
       "city": "",
       "round": "Quarter-finals"
+    },
+    {
+      "date": "2026-07-11T21:00:00Z",
+      "home_team": "Norway",
+      "away_team": "England",
+      "home_group": "B",
+      "away_group": "A",
+      "venue": "",
+      "city": "",
+      "round": "Quarter-finals"
     }
   ],
   "recent_results": [
+    {
+      "date": "2026-07-06T01:00:00Z",
+      "home_team": "Mexico",
+      "away_team": "England",
+      "home_score": 2,
+      "away_score": 3,
+      "home_group": "B",
+      "away_group": "A",
+      "venue": "Estadio Azteca",
+      "city": "Mexico City",
+      "round": "Round of 16",
+      "status": "FT"
+    },
     {
       "date": "2026-07-05T20:00:00Z",
       "home_team": "Brazil",
@@ -1199,19 +1222,6 @@
       "away_group": "C",
       "venue": "NRG Stadium",
       "city": "Houston",
-      "round": "Group Stage - 3",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-26T19:00:00Z",
-      "home_team": "Senegal",
-      "away_team": "Iraq",
-      "home_score": 5,
-      "away_score": 0,
-      "home_group": "B",
-      "away_group": "C",
-      "venue": "BMO Field",
-      "city": "Toronto",
       "round": "Group Stage - 3",
       "status": "FT"
     }
