@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T17:32:00Z",
+  "updated_at": "2026-07-06T19:26:59Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -56,8 +56,8 @@
       "colleague": "Jack",
       "team": "Spain",
       "team_id": 9,
-      "next_match_utc": "2026-07-06T19:00:00Z",
-      "next_match_vs": "Portugal",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 28,
       "played": 4,
       "wins": 3,
@@ -158,8 +158,8 @@
       "colleague": "Adam",
       "team": "Portugal",
       "team_id": 27,
-      "next_match_utc": "2026-07-06T19:00:00Z",
-      "next_match_vs": "Spain",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 19,
       "played": 4,
       "wins": 2,
@@ -773,16 +773,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-07-06T19:00:00Z",
-      "home_team": "Portugal",
-      "away_team": "Spain",
-      "home_group": "A",
-      "away_group": "A",
-      "venue": "AT&T Stadium",
-      "city": "Dallas",
-      "round": "Round of 16"
-    },
     {
       "date": "2026-07-07T00:00:00Z",
       "home_team": "USA",
