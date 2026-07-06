@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T14:39:57Z",
+  "updated_at": "2026-07-06T17:32:00Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -779,8 +779,8 @@
       "away_team": "Spain",
       "home_group": "A",
       "away_group": "A",
-      "venue": "",
-      "city": "",
+      "venue": "AT&T Stadium",
+      "city": "Dallas",
       "round": "Round of 16"
     },
     {
@@ -790,7 +790,7 @@
       "home_group": "B",
       "away_group": "A",
       "venue": "Lumen Field",
-      "city": "",
+      "city": "Seattle",
       "round": "Round of 16"
     },
     {
@@ -800,7 +800,7 @@
       "home_group": "A",
       "away_group": "C",
       "venue": "Mercedes-Benz Stadium",
-      "city": "",
+      "city": "Atlanta",
       "round": "Round of 16"
     },
     {
@@ -810,7 +810,7 @@
       "home_group": "B",
       "away_group": "A",
       "venue": "BC Place",
-      "city": "",
+      "city": "Vancouver",
       "round": "Round of 16"
     },
     {
@@ -820,7 +820,7 @@
       "home_group": "A",
       "away_group": "A",
       "venue": "Gillette Stadium",
-      "city": "",
+      "city": "Boston",
       "round": "Quarter-finals"
     },
     {
@@ -829,8 +829,8 @@
       "away_team": "England",
       "home_group": "B",
       "away_group": "A",
-      "venue": "",
-      "city": "",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami",
       "round": "Quarter-finals"
     }
   ],
