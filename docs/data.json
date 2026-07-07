@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T15:21:40Z",
+  "updated_at": "2026-07-07T17:29:58Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -345,8 +345,8 @@
       "colleague": "Messy",
       "team": "Egypt",
       "team_id": 32,
-      "next_match_utc": "2026-07-07T16:00:00Z",
-      "next_match_vs": "Argentina",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 8,
       "played": 4,
       "wins": 1,
@@ -773,16 +773,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-07-07T16:00:00Z",
-      "home_team": "Argentina",
-      "away_team": "Egypt",
-      "home_group": "A",
-      "away_group": "C",
-      "venue": "Mercedes-Benz Stadium",
-      "city": "Atlanta",
-      "round": "Round of 16"
-    },
     {
       "date": "2026-07-07T20:00:00Z",
       "home_team": "Switzerland",
