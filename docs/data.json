@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T01:45:25Z",
+  "updated_at": "2026-07-07T05:55:31Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -22,9 +22,9 @@
       "colleague": "Jack",
       "team": "Spain",
       "team_id": 9,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 33,
+      "next_match_utc": "2026-07-10T19:00:00Z",
+      "next_match_vs": "Belgium",
+      "points": 35,
       "played": 5,
       "wins": 4,
       "draws": 1,
@@ -82,6 +82,23 @@
       "goals_for": 11,
       "clean_sheets": 2,
       "yellow_cards": 7,
+      "red_cards": 1,
+      "upset_bonus": 0,
+      "eliminated": false
+    },
+    {
+      "colleague": "Jess",
+      "team": "Belgium",
+      "team_id": 1,
+      "next_match_utc": "2026-07-10T19:00:00Z",
+      "next_match_vs": "Spain",
+      "points": 25,
+      "played": 5,
+      "wins": 3,
+      "draws": 2,
+      "goals_for": 13,
+      "clean_sheets": 1,
+      "yellow_cards": 5,
       "red_cards": 1,
       "upset_bonus": 0,
       "eliminated": false
@@ -204,23 +221,6 @@
       "red_cards": 0,
       "upset_bonus": 0,
       "eliminated": true
-    },
-    {
-      "colleague": "Jess",
-      "team": "Belgium",
-      "team_id": 1,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 16,
-      "played": 4,
-      "wins": 2,
-      "draws": 2,
-      "goals_for": 9,
-      "clean_sheets": 1,
-      "yellow_cards": 5,
-      "red_cards": 1,
-      "upset_bonus": 0,
-      "eliminated": false
     },
     {
       "colleague": "Stuart",
@@ -769,7 +769,7 @@
     {
       "team_id": 2384,
       "team": "USA",
-      "points": 20
+      "points": 19
     }
   ],
   "upcoming_fixtures": [
@@ -804,6 +804,16 @@
       "round": "Quarter-finals"
     },
     {
+      "date": "2026-07-10T19:00:00Z",
+      "home_team": "Spain",
+      "away_team": "Belgium",
+      "home_group": "A",
+      "away_group": "A",
+      "venue": "",
+      "city": "",
+      "round": "Quarter-finals"
+    },
+    {
       "date": "2026-07-11T21:00:00Z",
       "home_team": "Norway",
       "away_team": "England",
@@ -815,6 +825,19 @@
     }
   ],
   "recent_results": [
+    {
+      "date": "2026-07-07T00:00:00Z",
+      "home_team": "USA",
+      "away_team": "Belgium",
+      "home_score": 1,
+      "away_score": 4,
+      "home_group": "B",
+      "away_group": "A",
+      "venue": "Lumen Field",
+      "city": "Seattle",
+      "round": "Round of 16",
+      "status": "FT"
+    },
     {
       "date": "2026-07-06T19:00:00Z",
       "home_team": "Portugal",
@@ -1189,19 +1212,6 @@
       "away_group": "A",
       "venue": "BC Place",
       "city": "Vancouver",
-      "round": "Group Stage - 3",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-27T00:00:00Z",
-      "home_team": "Uruguay",
-      "away_team": "Spain",
-      "home_score": 0,
-      "away_score": 1,
-      "home_group": "B",
-      "away_group": "A",
-      "venue": "Estadio Akron",
-      "city": "Zapopan",
       "round": "Group Stage - 3",
       "status": "FT"
     }
