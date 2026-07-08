@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T12:56:44Z",
+  "updated_at": "2026-07-08T15:10:30Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -809,8 +809,8 @@
       "away_team": "Switzerland",
       "home_group": "A",
       "away_group": "B",
-      "venue": "",
-      "city": "",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
       "round": "Quarter-finals"
     }
   ],
