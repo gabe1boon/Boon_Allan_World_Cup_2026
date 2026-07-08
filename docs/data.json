@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T23:26:30Z",
+  "updated_at": "2026-07-08T00:57:28Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -124,9 +124,9 @@
       "colleague": "Stuart",
       "team": "Switzerland",
       "team_id": 15,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 22,
+      "next_match_utc": "2026-07-12T01:00:00Z",
+      "next_match_vs": "Argentina",
+      "points": 24,
       "played": 5,
       "wins": 3,
       "draws": 2,
@@ -754,7 +754,7 @@
     {
       "team_id": 26,
       "team": "Argentina",
-      "points": 34
+      "points": 36
     },
     {
       "team_id": 12,
@@ -801,6 +801,16 @@
       "away_group": "A",
       "venue": "Hard Rock Stadium",
       "city": "Miami",
+      "round": "Quarter-finals"
+    },
+    {
+      "date": "2026-07-12T01:00:00Z",
+      "home_team": "Argentina",
+      "away_team": "Switzerland",
+      "home_group": "A",
+      "away_group": "B",
+      "venue": "",
+      "city": "",
       "round": "Quarter-finals"
     }
   ],
