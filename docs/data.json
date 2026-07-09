@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-09T18:47:41Z",
+  "updated_at": "2026-07-09T20:30:04Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
       "team": "France",
       "team_id": 2,
-      "next_match_utc": "2026-07-09T20:00:00Z",
-      "next_match_vs": "Morocco",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 37,
       "played": 5,
       "wins": 5,
@@ -107,8 +107,8 @@
       "colleague": "Mark",
       "team": "Morocco",
       "team_id": 31,
-      "next_match_utc": "2026-07-09T20:00:00Z",
-      "next_match_vs": "France",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 25,
       "played": 5,
       "wins": 3,
@@ -773,16 +773,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-07-09T20:00:00Z",
-      "home_team": "France",
-      "away_team": "Morocco",
-      "home_group": "A",
-      "away_group": "A",
-      "venue": "Gillette Stadium",
-      "city": "Boston",
-      "round": "Quarter-finals"
-    },
     {
       "date": "2026-07-10T19:00:00Z",
       "home_team": "Spain",
