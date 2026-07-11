@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T20:35:50Z",
+  "updated_at": "2026-07-11T21:36:52Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -39,8 +39,8 @@
       "colleague": "Lula",
       "team": "Norway",
       "team_id": 1090,
-      "next_match_utc": "2026-07-11T21:00:00Z",
-      "next_match_vs": "England",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 29,
       "played": 5,
       "wins": 4,
@@ -73,8 +73,8 @@
       "colleague": "Lula",
       "team": "England",
       "team_id": 10,
-      "next_match_utc": "2026-07-11T21:00:00Z",
-      "next_match_vs": "Norway",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 25,
       "played": 5,
       "wins": 4,
@@ -773,16 +773,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-07-11T21:00:00Z",
-      "home_team": "Norway",
-      "away_team": "England",
-      "home_group": "B",
-      "away_group": "A",
-      "venue": "Hard Rock Stadium",
-      "city": "Miami",
-      "round": "Quarter-finals"
-    },
     {
       "date": "2026-07-12T01:00:00Z",
       "home_team": "Argentina",
