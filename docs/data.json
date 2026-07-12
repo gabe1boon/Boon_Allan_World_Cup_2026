@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T04:44:32Z",
+  "updated_at": "2026-07-12T07:22:54Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -39,9 +39,9 @@
       "colleague": "Lula",
       "team": "England",
       "team_id": 10,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 30,
+      "next_match_utc": "2026-07-15T19:00:00Z",
+      "next_match_vs": "Argentina",
+      "points": 32,
       "played": 6,
       "wins": 5,
       "draws": 1,
@@ -754,7 +754,7 @@
     {
       "team_id": 26,
       "team": "Argentina",
-      "points": 39
+      "points": 41
     },
     {
       "team_id": 12,
@@ -777,6 +777,16 @@
       "date": "2026-07-14T19:00:00Z",
       "home_team": "France",
       "away_team": "Spain",
+      "home_group": "A",
+      "away_group": "A",
+      "venue": "",
+      "city": "",
+      "round": "Semi-finals"
+    },
+    {
+      "date": "2026-07-15T19:00:00Z",
+      "home_team": "England",
+      "away_team": "Argentina",
       "home_group": "A",
       "away_group": "A",
       "venue": "",
