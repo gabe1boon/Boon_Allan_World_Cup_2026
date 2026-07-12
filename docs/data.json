@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T23:40:09Z",
+  "updated_at": "2026-07-12T01:19:04Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -37,20 +37,37 @@
     },
     {
       "colleague": "Lula",
+      "team": "England",
+      "team_id": 10,
+      "next_match_utc": null,
+      "next_match_vs": null,
+      "points": 30,
+      "played": 6,
+      "wins": 5,
+      "draws": 1,
+      "goals_for": 13,
+      "clean_sheets": 2,
+      "yellow_cards": 7,
+      "red_cards": 1,
+      "upset_bonus": 0,
+      "eliminated": false
+    },
+    {
+      "colleague": "Lula",
       "team": "Norway",
       "team_id": 1090,
       "next_match_utc": null,
       "next_match_vs": null,
       "points": 29,
-      "played": 5,
+      "played": 6,
       "wins": 4,
       "draws": 0,
-      "goals_for": 12,
+      "goals_for": 13,
       "clean_sheets": 0,
-      "yellow_cards": 2,
+      "yellow_cards": 3,
       "red_cards": 0,
       "upset_bonus": 1,
-      "eliminated": false
+      "eliminated": true
     },
     {
       "colleague": "Messy",
@@ -68,23 +85,6 @@
       "red_cards": 1,
       "upset_bonus": 0,
       "eliminated": true
-    },
-    {
-      "colleague": "Lula",
-      "team": "England",
-      "team_id": 10,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 25,
-      "played": 5,
-      "wins": 4,
-      "draws": 1,
-      "goals_for": 11,
-      "clean_sheets": 2,
-      "yellow_cards": 7,
-      "red_cards": 1,
-      "upset_bonus": 0,
-      "eliminated": false
     },
     {
       "colleague": "Jess",
@@ -124,8 +124,8 @@
       "colleague": "Stuart",
       "team": "Switzerland",
       "team_id": 15,
-      "next_match_utc": "2026-07-12T01:00:00Z",
-      "next_match_vs": "Argentina",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 24,
       "played": 5,
       "wins": 3,
@@ -774,16 +774,6 @@
   ],
   "upcoming_fixtures": [
     {
-      "date": "2026-07-12T01:00:00Z",
-      "home_team": "Argentina",
-      "away_team": "Switzerland",
-      "home_group": "A",
-      "away_group": "B",
-      "venue": "Arrowhead Stadium",
-      "city": "Kansas City",
-      "round": "Quarter-finals"
-    },
-    {
       "date": "2026-07-14T19:00:00Z",
       "home_team": "France",
       "away_team": "Spain",
@@ -795,6 +785,19 @@
     }
   ],
   "recent_results": [
+    {
+      "date": "2026-07-11T21:00:00Z",
+      "home_team": "Norway",
+      "away_team": "England",
+      "home_score": 1,
+      "away_score": 2,
+      "home_group": "B",
+      "away_group": "A",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami",
+      "round": "Quarter-finals",
+      "status": "AET"
+    },
     {
       "date": "2026-07-10T19:00:00Z",
       "home_team": "Spain",
@@ -1169,19 +1172,6 @@
       "away_group": "A",
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens",
-      "round": "Group Stage - 3",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-27T23:30:00Z",
-      "home_team": "Congo DR",
-      "away_team": "Uzbekistan",
-      "home_score": 3,
-      "away_score": 1,
-      "home_group": "D",
-      "away_group": "D",
-      "venue": "Mercedes-Benz Stadium",
-      "city": "Atlanta",
       "round": "Group Stage - 3",
       "status": "FT"
     }
