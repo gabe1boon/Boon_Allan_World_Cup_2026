@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T18:35:11Z",
+  "updated_at": "2026-07-15T19:58:59Z",
   "leaderboard": [
     {
       "colleague": "Jack",
@@ -39,8 +39,8 @@
       "colleague": "Lula",
       "team": "England",
       "team_id": 10,
-      "next_match_utc": "2026-07-15T19:00:00Z",
-      "next_match_vs": "Argentina",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 32,
       "played": 6,
       "wins": 5,
@@ -772,18 +772,7 @@
       "points": 19
     }
   ],
-  "upcoming_fixtures": [
-    {
-      "date": "2026-07-15T19:00:00Z",
-      "home_team": "England",
-      "away_team": "Argentina",
-      "home_group": "A",
-      "away_group": "A",
-      "venue": "Mercedes-Benz Stadium",
-      "city": "Atlanta",
-      "round": "Semi-finals"
-    }
-  ],
+  "upcoming_fixtures": [],
   "recent_results": [
     {
       "date": "2026-07-14T19:00:00Z",
