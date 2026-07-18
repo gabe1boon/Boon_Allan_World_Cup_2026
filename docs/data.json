@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T20:34:39Z",
+  "updated_at": "2026-07-18T21:37:24Z",
   "leaderboard": [
     {
       "colleague": "Jack",
@@ -22,8 +22,8 @@
       "colleague": "Gabe",
       "team": "France",
       "team_id": 2,
-      "next_match_utc": "2026-07-18T21:00:00Z",
-      "next_match_vs": "England",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 46,
       "played": 7,
       "wins": 6,
@@ -39,8 +39,8 @@
       "colleague": "Lula",
       "team": "England",
       "team_id": 10,
-      "next_match_utc": "2026-07-18T21:00:00Z",
-      "next_match_vs": "France",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 34,
       "played": 7,
       "wins": 5,
@@ -773,16 +773,6 @@
     }
   ],
   "upcoming_fixtures": [
-    {
-      "date": "2026-07-18T21:00:00Z",
-      "home_team": "France",
-      "away_team": "England",
-      "home_group": "A",
-      "away_group": "A",
-      "venue": "Hard Rock Stadium, Miami Garden",
-      "city": "Miami",
-      "round": "3rd Place Final"
-    },
     {
       "date": "2026-07-19T19:00:00Z",
       "home_team": "Spain",
