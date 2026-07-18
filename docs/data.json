@@ -1,6 +1,23 @@
 {
-  "updated_at": "2026-07-18T22:35:07Z",
+  "updated_at": "2026-07-18T23:39:36Z",
   "leaderboard": [
+    {
+      "colleague": "Gabe",
+      "team": "France",
+      "team_id": 2,
+      "next_match_utc": null,
+      "next_match_vs": null,
+      "points": 50,
+      "played": 8,
+      "wins": 6,
+      "draws": 0,
+      "goals_for": 20,
+      "clean_sheets": 4,
+      "yellow_cards": 6,
+      "red_cards": 0,
+      "upset_bonus": 0,
+      "eliminated": true
+    },
     {
       "colleague": "Jack",
       "team": "Spain",
@@ -19,33 +36,16 @@
       "eliminated": false
     },
     {
-      "colleague": "Gabe",
-      "team": "France",
-      "team_id": 2,
-      "next_match_utc": null,
-      "next_match_vs": null,
-      "points": 46,
-      "played": 7,
-      "wins": 6,
-      "draws": 0,
-      "goals_for": 16,
-      "clean_sheets": 4,
-      "yellow_cards": 6,
-      "red_cards": 0,
-      "upset_bonus": 0,
-      "eliminated": true
-    },
-    {
       "colleague": "Lula",
       "team": "England",
       "team_id": 10,
       "next_match_utc": null,
       "next_match_vs": null,
-      "points": 34,
-      "played": 7,
-      "wins": 5,
+      "points": 43,
+      "played": 8,
+      "wins": 6,
       "draws": 1,
-      "goals_for": 14,
+      "goals_for": 20,
       "clean_sheets": 2,
       "yellow_cards": 8,
       "red_cards": 1,
@@ -786,6 +786,19 @@
   ],
   "recent_results": [
     {
+      "date": "2026-07-18T21:00:00Z",
+      "home_team": "France",
+      "away_team": "England",
+      "home_score": 4,
+      "away_score": 6,
+      "home_group": "A",
+      "away_group": "A",
+      "venue": "Hard Rock Stadium, Miami Garden",
+      "city": "Miami",
+      "round": "3rd Place Final",
+      "status": "FT"
+    },
+    {
       "date": "2026-07-15T19:00:00Z",
       "home_team": "England",
       "away_team": "Argentina",
@@ -1159,19 +1172,6 @@
       "away_group": "B",
       "venue": "NRG Stadium",
       "city": "Houston",
-      "round": "Round of 32",
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-28T19:00:00Z",
-      "home_team": "South Africa",
-      "away_team": "Canada",
-      "home_score": 0,
-      "away_score": 1,
-      "home_group": "D",
-      "away_group": "B",
-      "venue": "SoFi Stadium",
-      "city": "Inglewood",
       "round": "Round of 32",
       "status": "FT"
     }
