@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T18:26:16Z",
+  "updated_at": "2026-07-19T19:37:49Z",
   "leaderboard": [
     {
       "colleague": "Gabe",
@@ -22,8 +22,8 @@
       "colleague": "Jack",
       "team": "Spain",
       "team_id": 9,
-      "next_match_utc": "2026-07-19T19:00:00Z",
-      "next_match_vs": "Argentina",
+      "next_match_utc": null,
+      "next_match_vs": null,
       "points": 48,
       "played": 7,
       "wins": 6,
@@ -772,18 +772,7 @@
       "points": 19
     }
   ],
-  "upcoming_fixtures": [
-    {
-      "date": "2026-07-19T19:00:00Z",
-      "home_team": "Spain",
-      "away_team": "Argentina",
-      "home_group": "A",
-      "away_group": "A",
-      "venue": "",
-      "city": "",
-      "round": "Final"
-    }
-  ],
+  "upcoming_fixtures": [],
   "recent_results": [
     {
       "date": "2026-07-18T21:00:00Z",
